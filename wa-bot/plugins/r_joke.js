@@ -1,0 +1,1 @@
+const a=["😂 Programmer suka kopi karena butuh Java!","😂 Ikan gak basket takut kena net!","😂 Buku matematika sedih karena banyak problem!"];module.exports={name:'r_joke',run:async({m})=>{if(!m.isCmd||!["joke"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

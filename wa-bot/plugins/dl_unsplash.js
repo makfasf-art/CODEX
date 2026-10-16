@@ -1,0 +1,1 @@
+module.exports={name:'dl_unsplash',run:async({m})=>{if(!m.isCmd||!["unsplash","unsplashdl"].includes(m.command))return;m.reply("❌ Fitur download UNSPLASH memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

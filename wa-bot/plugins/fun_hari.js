@@ -1,0 +1,1 @@
+const a=["📅 Hari fav: Selasa"];module.exports={name:'fun_hari',run:async({m})=>{if(!m.isCmd||!["hari"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

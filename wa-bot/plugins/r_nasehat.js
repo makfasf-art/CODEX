@@ -1,0 +1,1 @@
+const a=["🙏 Bersyukur sebelum tidur.","📿 Sabar itu indah.","🤲 Berdoa dulu sebelum mulai."];module.exports={name:'r_nasehat',run:async({m})=>{if(!m.isCmd||!["nasehat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

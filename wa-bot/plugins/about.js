@@ -1,0 +1,1 @@
+module.exports={name:'about',run:async({m})=>{if(!m.isCmd||!["about","tentang"].includes(m.command))return;m.reply("🤖 NEXUS-BOT\n📦 670+ fitur\n⚡ Powered by Baileys\n👨‍💻 Dev: NEXUS Team");}};

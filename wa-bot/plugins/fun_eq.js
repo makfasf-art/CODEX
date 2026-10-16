@@ -1,0 +1,1 @@
+const a=["❤️ EQ: 56"];module.exports={name:'fun_eq',run:async({m})=>{if(!m.isCmd||!["eq"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

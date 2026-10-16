@@ -1,0 +1,1 @@
+const a=["⚔️ STR: 78"];module.exports={name:'fun_strength',run:async({m})=>{if(!m.isCmd||!["strength"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

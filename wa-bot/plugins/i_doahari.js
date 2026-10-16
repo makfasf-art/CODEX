@@ -1,0 +1,1 @@
+const a=["🤲 Ya Allah berkahi pagi ini","🤲 Ya Allah berkahi sore ini","🤲 Ya Allah berkahi malam ini"];module.exports={name:'i_doahari',run:async({m})=>{if(!m.isCmd||!["doahari"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

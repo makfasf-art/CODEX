@@ -1,0 +1,1 @@
+module.exports={name:'info_carapakaibot',run:async({m})=>{if(!m.isCmd||!["carapakaibot"].includes(m.command))return;m.reply("Cara pakai: ketik .menu untuk lihat semua fitur");}};

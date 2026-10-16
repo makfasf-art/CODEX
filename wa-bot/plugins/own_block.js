@@ -1,0 +1,1 @@
+module.exports={name:'own_block',run:async({m})=>{if(!m.isCmd||!["block"].includes(m.command))return;m.reply("👑 Command block khusus owner.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_meme',run:async({m})=>{if(!m.isCmd||!["meme","memedl"].includes(m.command))return;m.reply("❌ Fitur download MEME memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

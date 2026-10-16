@@ -1,0 +1,1 @@
+module.exports={name:'t_urut',run:async({m})=>{if(!m.isCmd||m.command!=='urut')return;if(!m.text)return m.reply('❌ .urut <text>');m.reply((t=>t.split("").sort().join(""))(m.text));}};

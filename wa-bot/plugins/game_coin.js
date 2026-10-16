@@ -1,0 +1,1 @@
+const a=["🪙 Coin: EKOR"];module.exports={name:'game_coin',run:async({m})=>{if(!m.isCmd||!["coin"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

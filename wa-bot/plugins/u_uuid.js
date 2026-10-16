@@ -1,0 +1,1 @@
+const a=["🆔 da326ba1-4eb4-4821-8f8b-743f5df754c0"];module.exports={name:'u_uuid',run:async({m})=>{if(!m.isCmd||m.command!=='uuid')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

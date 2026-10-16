@@ -1,0 +1,1 @@
+module.exports={name:'ai_perplexity',run:async({m})=>{if(!m.isCmd||!["perplexity"].includes(m.command))return;m.reply("🤖 Fitur AI perplexity memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

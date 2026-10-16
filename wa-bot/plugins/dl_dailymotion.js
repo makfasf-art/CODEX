@@ -1,0 +1,1 @@
+module.exports={name:'dl_dailymotion',run:async({m})=>{if(!m.isCmd||!["dailymotion","dailymotiondl"].includes(m.command))return;m.reply("❌ Fitur download DAILYMOTION memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

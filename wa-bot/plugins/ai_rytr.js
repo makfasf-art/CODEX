@@ -1,0 +1,1 @@
+module.exports={name:'ai_rytr',run:async({m})=>{if(!m.isCmd||!["rytr"].includes(m.command))return;m.reply("🤖 Fitur AI rytr memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

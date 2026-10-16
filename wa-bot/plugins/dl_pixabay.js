@@ -1,0 +1,1 @@
+module.exports={name:'dl_pixabay',run:async({m})=>{if(!m.isCmd||!["pixabay","pixabaydl"].includes(m.command))return;m.reply("❌ Fitur download PIXABAY memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

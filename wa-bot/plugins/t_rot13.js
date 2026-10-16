@@ -1,0 +1,1 @@
+module.exports={name:'t_rot13',run:async({m})=>{if(!m.isCmd||m.command!=='rot13')return;if(!m.text)return m.reply('❌ .rot13 <text>');m.reply((t=>t.replace(/[a-z]/gi,c=>String.fromCharCode(c.charCodeAt(0)+13>90&&c<="Z"?c.charCodeAt(0)-13:c.charCodeAt(0)+13>122?c.charCodeAt(0)-13:c.charCodeAt(0)+13)))(m.text));}};

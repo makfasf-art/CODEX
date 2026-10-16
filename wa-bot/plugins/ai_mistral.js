@@ -1,0 +1,1 @@
+module.exports={name:'ai_mistral',run:async({m})=>{if(!m.isCmd||!["mistral"].includes(m.command))return;m.reply("🤖 Fitur AI mistral memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

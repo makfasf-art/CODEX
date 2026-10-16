@@ -1,0 +1,1 @@
+const a=["❤️ Kamu segalanya.","💘 Cinta sejati tanpa alasan.","💝 Kasih sayangku tak terbatas."];module.exports={name:'r_cinta',run:async({m})=>{if(!m.isCmd||!["cinta"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

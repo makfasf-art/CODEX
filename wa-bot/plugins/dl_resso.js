@@ -1,0 +1,1 @@
+module.exports={name:'dl_resso',run:async({m})=>{if(!m.isCmd||!["resso","ressodl"].includes(m.command))return;m.reply("❌ Fitur download RESSO memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

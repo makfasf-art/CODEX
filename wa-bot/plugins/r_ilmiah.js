@@ -1,0 +1,1 @@
+const a=["🔬 Sel manusia 46 kromosom.","🧬 DNA manusia 2 meter jika diurai.","⚛️ Atom 99.99% ruang kosong."];module.exports={name:'r_ilmiah',run:async({m})=>{if(!m.isCmd||!["ilmiah"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

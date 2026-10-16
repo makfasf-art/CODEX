@@ -1,0 +1,1 @@
+module.exports={name:'dl_twitter',run:async({m})=>{if(!m.isCmd||!["twitter","twitterdl"].includes(m.command))return;m.reply("❌ Fitur download TWITTER memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

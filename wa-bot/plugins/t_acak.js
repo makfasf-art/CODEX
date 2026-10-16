@@ -1,0 +1,1 @@
+module.exports={name:'t_acak',run:async({m})=>{if(!m.isCmd||m.command!=='acak')return;if(!m.text)return m.reply('❌ .acak <text>');m.reply((t=>t.split(" ").sort(()=>Math.random()-.5).join(" "))(m.text));}};

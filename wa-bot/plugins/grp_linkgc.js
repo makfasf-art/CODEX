@@ -1,0 +1,1 @@
+module.exports={name:'grp_linkgc',run:async({m})=>{if(!m.isCmd||!["linkgc"].includes(m.command))return;m.reply("⚙️ Fitur linkgc di grup.\nFitur lanjutan butuh API tambahan.");}};

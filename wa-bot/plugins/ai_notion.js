@@ -1,0 +1,1 @@
+module.exports={name:'ai_notion',run:async({m})=>{if(!m.isCmd||!["notion"].includes(m.command))return;m.reply("🤖 Fitur AI notion memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'own_setbotname',run:async({m})=>{if(!m.isCmd||!["setbotname"].includes(m.command))return;m.reply("👑 Command setbotname khusus owner.");}};

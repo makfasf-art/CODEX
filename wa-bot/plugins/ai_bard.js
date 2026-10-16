@@ -1,0 +1,1 @@
+module.exports={name:'ai_bard',run:async({m})=>{if(!m.isCmd||!["bard"].includes(m.command))return;m.reply("🤖 Fitur AI bard memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

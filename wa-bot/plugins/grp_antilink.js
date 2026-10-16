@@ -1,0 +1,1 @@
+module.exports={name:'grp_antilink',run:async({m})=>{if(!m.isCmd||!["antilink"].includes(m.command))return;m.reply("⚙️ Fitur antilink di grup.\nFitur lanjutan butuh API tambahan.");}};

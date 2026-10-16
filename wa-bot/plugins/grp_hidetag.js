@@ -1,0 +1,1 @@
+module.exports={name:'grp_hidetag',run:async({m})=>{if(!m.isCmd||!["hidetag"].includes(m.command))return;m.reply("⚙️ Fitur hidetag di grup.\nFitur lanjutan butuh API tambahan.");}};

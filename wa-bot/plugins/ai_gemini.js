@@ -1,0 +1,1 @@
+module.exports={name:'ai_gemini',run:async({m})=>{if(!m.isCmd||!["gemini"].includes(m.command))return;m.reply("🤖 Fitur AI gemini memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

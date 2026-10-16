@@ -1,0 +1,1 @@
+const a=["🪐 Jupiter muat 1300 Bumi.","🌍 Bumi putar 1670 km/jam.","🌕 Bulan menjauh 3.8cm/tahun."];module.exports={name:'r_planet',run:async({m})=>{if(!m.isCmd||!["planet"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

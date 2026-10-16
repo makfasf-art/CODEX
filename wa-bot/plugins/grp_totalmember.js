@@ -1,0 +1,1 @@
+module.exports={name:'grp_totalmember',run:async({m})=>{if(!m.isCmd||!["totalmember"].includes(m.command))return;m.reply("⚙️ Fitur totalmember di grup.\nFitur lanjutan butuh API tambahan.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_caesar3',run:async({m})=>{if(!m.isCmd||m.command!=='caesar3')return;if(!m.text)return m.reply('❌ .caesar3 <text>');m.reply((t=>t.replace(/[a-z]/gi,c=>String.fromCharCode(c.charCodeAt(0)+3)))(m.text));}};

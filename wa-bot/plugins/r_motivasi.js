@@ -1,0 +1,1 @@
+const a=["💪 Jangan berhenti, kau kuat.","🔥 Kegagalan bumbu sukses.","⚡ Hari ini berat, besok ringan.","🌟 Kau versi terbaik dirimu."];module.exports={name:'r_motivasi',run:async({m})=>{if(!m.isCmd||!["motivasi"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+const a=["🕌 5 Waktu: Subuh, Dzuhur, Ashar, Maghrib, Isya"];module.exports={name:'i_sholat',run:async({m})=>{if(!m.isCmd||!["sholat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

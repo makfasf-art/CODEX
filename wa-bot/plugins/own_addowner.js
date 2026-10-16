@@ -1,0 +1,1 @@
+module.exports={name:'own_addowner',run:async({m})=>{if(!m.isCmd||!["addowner"].includes(m.command))return;m.reply("👑 Command addowner khusus owner.");}};

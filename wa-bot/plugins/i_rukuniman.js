@@ -1,0 +1,1 @@
+const a=["🕌 6 Rukun Iman: Allah, Malaikat, Kitab, Rasul, Hari Akhir, Qada Qadar"];module.exports={name:'i_rukuniman',run:async({m})=>{if(!m.isCmd||!["rukuniman"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

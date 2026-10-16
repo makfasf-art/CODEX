@@ -1,0 +1,1 @@
+module.exports={name:'grp_closetime',run:async({m})=>{if(!m.isCmd||!["closetime"].includes(m.command))return;m.reply("⚙️ Fitur closetime di grup.\nFitur lanjutan butuh API tambahan.");}};

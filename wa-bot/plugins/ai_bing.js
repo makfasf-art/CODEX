@@ -1,0 +1,1 @@
+module.exports={name:'ai_bing',run:async({m})=>{if(!m.isCmd||!["bing"].includes(m.command))return;m.reply("🤖 Fitur AI bing memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

@@ -1,0 +1,1 @@
+const a=["✊ BATU","✋ KERTAS","✌️ GUNTING"];module.exports={name:'game_suit2',run:async({m})=>{if(!m.isCmd||!["suit2"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

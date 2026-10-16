@@ -1,0 +1,1 @@
+module.exports={name:'dl_shazam',run:async({m})=>{if(!m.isCmd||!["shazam","shazamdl"].includes(m.command))return;m.reply("❌ Fitur download SHAZAM memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

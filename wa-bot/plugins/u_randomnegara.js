@@ -1,0 +1,1 @@
+const a=["🌍 Malaysia"];module.exports={name:'u_randomnegara',run:async({m})=>{if(!m.isCmd||m.command!=='randomnegara')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

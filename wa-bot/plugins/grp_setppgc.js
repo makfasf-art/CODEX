@@ -1,0 +1,1 @@
+module.exports={name:'grp_setppgc',run:async({m})=>{if(!m.isCmd||!["setppgc"].includes(m.command))return;m.reply("⚙️ Fitur setppgc di grup.\nFitur lanjutan butuh API tambahan.");}};

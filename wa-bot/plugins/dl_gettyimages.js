@@ -1,0 +1,1 @@
+module.exports={name:'dl_gettyimages',run:async({m})=>{if(!m.isCmd||!["gettyimages","gettyimagesdl"].includes(m.command))return;m.reply("❌ Fitur download GETTYIMAGES memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

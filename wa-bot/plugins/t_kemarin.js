@@ -1,0 +1,1 @@
+module.exports={name:'t_kemarin',run:async({m})=>{if(!m.isCmd||m.command!=='kemarin')return;if(!m.text)return m.reply('❌ .kemarin <text>');m.reply((t=>"Kemarin, "+t)(m.text));}};

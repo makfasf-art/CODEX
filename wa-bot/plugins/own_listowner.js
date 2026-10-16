@@ -1,0 +1,1 @@
+module.exports={name:'own_listowner',run:async({m})=>{if(!m.isCmd||!["listowner"].includes(m.command))return;m.reply("👑 Command listowner khusus owner.");}};

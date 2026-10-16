@@ -1,0 +1,1 @@
+module.exports={name:'dl_signal',run:async({m})=>{if(!m.isCmd||!["signal","signaldl"].includes(m.command))return;m.reply("❌ Fitur download SIGNAL memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

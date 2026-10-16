@@ -1,0 +1,1 @@
+const a=["📊 Level: 84"];module.exports={name:'fun_level',run:async({m})=>{if(!m.isCmd||!["level"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

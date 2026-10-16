@@ -1,0 +1,1 @@
+module.exports={name:'own_setname',run:async({m})=>{if(!m.isCmd||!["setname"].includes(m.command))return;m.reply("👑 Command setname khusus owner.");}};

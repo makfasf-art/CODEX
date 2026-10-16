@@ -1,0 +1,1 @@
+module.exports={name:'dl_adobe',run:async({m})=>{if(!m.isCmd||!["adobe","adobedl"].includes(m.command))return;m.reply("❌ Fitur download ADOBE memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

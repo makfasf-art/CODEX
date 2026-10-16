@@ -1,0 +1,1 @@
+const a=["🎯 Angka: 7"];module.exports={name:'game_tebakangka',run:async({m})=>{if(!m.isCmd||!["tebakangka"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

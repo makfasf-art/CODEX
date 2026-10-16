@@ -1,0 +1,1 @@
+const a=["🎨 Hobi: Traveling"];module.exports={name:'fun_hobi',run:async({m})=>{if(!m.isCmd||!["hobi"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

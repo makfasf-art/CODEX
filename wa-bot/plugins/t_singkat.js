@@ -1,0 +1,1 @@
+module.exports={name:'t_singkat',run:async({m})=>{if(!m.isCmd||m.command!=='singkat')return;if(!m.text)return m.reply('❌ .singkat <text>');m.reply((t=>t.split(" ").map(w=>w[0]).join(""))(m.text));}};

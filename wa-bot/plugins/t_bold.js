@@ -1,0 +1,1 @@
+module.exports={name:'t_bold',run:async({m})=>{if(!m.isCmd||m.command!=='bold')return;if(!m.text)return m.reply('❌ .bold <text>');m.reply((t=>"*"+t+"*")(m.text));}};

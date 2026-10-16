@@ -1,0 +1,1 @@
+module.exports={name:'dl_imgur',run:async({m})=>{if(!m.isCmd||!["imgur","imgurdl"].includes(m.command))return;m.reply("❌ Fitur download IMGUR memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

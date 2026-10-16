@@ -1,0 +1,1 @@
+module.exports={name:'t_italic',run:async({m})=>{if(!m.isCmd||m.command!=='italic')return;if(!m.text)return m.reply('❌ .italic <text>');m.reply((t=>"_"+t+"_")(m.text));}};

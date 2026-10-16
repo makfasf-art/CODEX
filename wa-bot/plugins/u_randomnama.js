@@ -1,0 +1,1 @@
+const a=["👤 Bayu"];module.exports={name:'u_randomnama',run:async({m})=>{if(!m.isCmd||m.command!=='randomnama')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

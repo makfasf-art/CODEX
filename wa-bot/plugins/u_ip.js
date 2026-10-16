@@ -1,0 +1,1 @@
+const a=["🌐 IP: 192.168.81.134"];module.exports={name:'u_ip',run:async({m})=>{if(!m.isCmd||m.command!=='ip')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_strike',run:async({m})=>{if(!m.isCmd||m.command!=='strike')return;if(!m.text)return m.reply('❌ .strike <text>');m.reply((t=>"~"+t+"~")(m.text));}};

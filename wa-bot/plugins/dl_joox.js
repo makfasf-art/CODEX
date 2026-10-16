@@ -1,0 +1,1 @@
+module.exports={name:'dl_joox',run:async({m})=>{if(!m.isCmd||!["joox","jooxdl"].includes(m.command))return;m.reply("❌ Fitur download JOOX memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

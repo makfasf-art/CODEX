@@ -1,0 +1,1 @@
+module.exports={name:'t_lowercase',run:async({m})=>{if(!m.isCmd||m.command!=='lowercase')return;if(!m.text)return m.reply('❌ .lowercase <text>');m.reply((t=>t.toLowerCase())(m.text));}};

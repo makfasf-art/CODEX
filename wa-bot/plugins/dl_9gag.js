@@ -1,0 +1,1 @@
+module.exports={name:'dl_9gag',run:async({m})=>{if(!m.isCmd||!["9gag","9gagdl"].includes(m.command))return;m.reply("❌ Fitur download 9GAG memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

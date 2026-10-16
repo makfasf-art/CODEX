@@ -1,0 +1,1 @@
+module.exports={name:'grp_groupinfo',run:async({m})=>{if(!m.isCmd||!["groupinfo"].includes(m.command))return;m.reply("⚙️ Fitur groupinfo di grup.\nFitur lanjutan butuh API tambahan.");}};

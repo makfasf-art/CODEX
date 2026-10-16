@@ -1,0 +1,1 @@
+module.exports={name:'t_clap',run:async({m})=>{if(!m.isCmd||m.command!=='clap')return;if(!m.text)return m.reply('❌ .clap <text>');m.reply((t=>t.split(" ").join(" 👏 "))(m.text));}};

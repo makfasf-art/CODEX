@@ -1,0 +1,1 @@
+module.exports={name:'t_potong',run:async({m})=>{if(!m.isCmd||m.command!=='potong')return;if(!m.text)return m.reply('❌ .potong <text>');m.reply((t=>t.slice(0,10)+"...")(m.text));}};

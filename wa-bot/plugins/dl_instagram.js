@@ -1,0 +1,1 @@
+module.exports={name:'dl_instagram',run:async({m})=>{if(!m.isCmd||!["instagram","instagramdl"].includes(m.command))return;m.reply("❌ Fitur download INSTAGRAM memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

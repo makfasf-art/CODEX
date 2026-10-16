@@ -1,0 +1,1 @@
+const a="🍊 Jeruk";module.exports={name:'u_randombuah',run:async({m})=>{if(!m.isCmd||m.command!=='randombuah')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

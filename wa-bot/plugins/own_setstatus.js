@@ -1,0 +1,1 @@
+module.exports={name:'own_setstatus',run:async({m})=>{if(!m.isCmd||!["setstatus"].includes(m.command))return;m.reply("👑 Command setstatus khusus owner.");}};

@@ -1,0 +1,1 @@
+const a=["🧠 Pinter: 25%"];module.exports={name:'fun_pinter',run:async({m})=>{if(!m.isCmd||!["pinter"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

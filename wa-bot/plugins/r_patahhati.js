@@ -1,0 +1,1 @@
+const a=["💔 Move on itu belajar ikhlas.","🥺 Hatimu kuat, butuh waktu.","🌧️ Setelah hujan, matahari datang."];module.exports={name:'r_patahhati',run:async({m})=>{if(!m.isCmd||!["patahhati"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

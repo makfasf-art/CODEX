@@ -1,0 +1,1 @@
+module.exports={name:'dl_ifunny',run:async({m})=>{if(!m.isCmd||!["ifunny","ifunnydl"].includes(m.command))return;m.reply("❌ Fitur download IFUNNY memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

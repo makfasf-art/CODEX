@@ -1,0 +1,1 @@
+module.exports={name:'t_jumlahkata',run:async({m})=>{if(!m.isCmd||m.command!=='jumlahkata')return;if(!m.text)return m.reply('❌ .jumlahkata <text>');m.reply((t=>"Jumlah kata: "+t.split(/\s+/).length)(m.text));}};

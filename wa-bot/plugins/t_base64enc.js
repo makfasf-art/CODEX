@@ -1,0 +1,1 @@
+module.exports={name:'t_base64enc',run:async({m})=>{if(!m.isCmd||m.command!=='base64enc')return;if(!m.text)return m.reply('❌ .base64enc <text>');m.reply((t=>Buffer.from(t).toString("base64"))(m.text));}};

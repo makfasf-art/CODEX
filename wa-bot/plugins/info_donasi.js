@@ -1,0 +1,1 @@
+module.exports={name:'info_donasi',run:async({m})=>{if(!m.isCmd||!["donasi"].includes(m.command))return;m.reply("💝 Donasi: Saweria/Trakteer (hubungi owner)");}};

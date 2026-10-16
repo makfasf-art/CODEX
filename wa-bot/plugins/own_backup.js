@@ -1,0 +1,1 @@
+module.exports={name:'own_backup',run:async({m})=>{if(!m.isCmd||!["backup"].includes(m.command))return;m.reply("👑 Command backup khusus owner.");}};

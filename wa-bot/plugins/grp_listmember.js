@@ -1,0 +1,1 @@
+module.exports={name:'grp_listmember',run:async({m})=>{if(!m.isCmd||!["listmember"].includes(m.command))return;m.reply("⚙️ Fitur listmember di grup.\nFitur lanjutan butuh API tambahan.");}};

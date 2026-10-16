@@ -1,0 +1,1 @@
+const a=["📿 Subhanallah, Alhamdulillah, Allahu Akbar","📿 La ilaha illallah"];module.exports={name:'i_dzikir',run:async({m})=>{if(!m.isCmd||!["dzikir"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

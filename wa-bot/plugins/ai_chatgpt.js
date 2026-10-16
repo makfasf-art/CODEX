@@ -1,0 +1,1 @@
+module.exports={name:'ai_chatgpt',run:async({m})=>{if(!m.isCmd||!["chatgpt"].includes(m.command))return;m.reply("🤖 Fitur AI chatgpt memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

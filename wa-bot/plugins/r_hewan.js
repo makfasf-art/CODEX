@@ -1,0 +1,1 @@
+const a=["🐘 Gajah hamil 22 bulan.","🦁 Singa tidur 20 jam.","🐜 Semut angkat 50x beratnya."];module.exports={name:'r_hewan',run:async({m})=>{if(!m.isCmd||!["hewan"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

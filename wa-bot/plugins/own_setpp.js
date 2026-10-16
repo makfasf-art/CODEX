@@ -1,0 +1,1 @@
+module.exports={name:'own_setpp',run:async({m})=>{if(!m.isCmd||!["setpp"].includes(m.command))return;m.reply("👑 Command setpp khusus owner.");}};

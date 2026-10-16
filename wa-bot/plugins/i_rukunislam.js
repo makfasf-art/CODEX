@@ -1,0 +1,1 @@
+const a=["🕌 5 Rukun Islam: Syahadat, Sholat, Zakat, Puasa, Haji"];module.exports={name:'i_rukunislam',run:async({m})=>{if(!m.isCmd||!["rukunislam"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

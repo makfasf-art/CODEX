@@ -1,0 +1,1 @@
+module.exports={name:'grp_resetlink',run:async({m})=>{if(!m.isCmd||!["resetlink"].includes(m.command))return;m.reply("⚙️ Fitur resetlink di grup.\nFitur lanjutan butuh API tambahan.");}};

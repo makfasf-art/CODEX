@@ -1,0 +1,1 @@
+const a=["🐙 Gurita punya 3 jantung.","🍯 Madu tidak pernah basi.","🦈 Hiu lebih tua dari pohon.","🌙 Butuh 1.3 detik cahaya ke Bulan.","🐘 Gajah tidak bisa lompat."];module.exports={name:'r_fakta',run:async({m})=>{if(!m.isCmd||!["fakta"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

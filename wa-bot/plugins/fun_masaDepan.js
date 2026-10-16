@@ -1,0 +1,1 @@
+const a=["🔮 Masa depan: Suram"];module.exports={name:'fun_masaDepan',run:async({m})=>{if(!m.isCmd||!["masaDepan"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

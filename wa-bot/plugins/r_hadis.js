@@ -1,0 +1,1 @@
+const a=["📿 Sebaik-baik manusia bermanfaat.","📿 Amal tergantung niat.","📿 Senyum itu sedekah."];module.exports={name:'r_hadis',run:async({m})=>{if(!m.isCmd||!["hadis"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

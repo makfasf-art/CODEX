@@ -1,0 +1,1 @@
+module.exports={name:'t_title',run:async({m})=>{if(!m.isCmd||m.command!=='title')return;if(!m.text)return m.reply('❌ .title <text>');m.reply((t=>t.split(" ").map(w=>w[0]?.toUpperCase()+w.slice(1).toLowerCase()).join(" "))(m.text));}};

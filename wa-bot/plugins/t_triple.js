@@ -1,0 +1,1 @@
+module.exports={name:'t_triple',run:async({m})=>{if(!m.isCmd||m.command!=='triple')return;if(!m.text)return m.reply('❌ .triple <text>');m.reply((t=>t.split("").map(c=>c+c+c).join(""))(m.text));}};

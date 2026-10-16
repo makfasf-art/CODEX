@@ -1,0 +1,1 @@
+module.exports={name:'dl_snapchat',run:async({m})=>{if(!m.isCmd||!["snapchat","snapchatdl"].includes(m.command))return;m.reply("❌ Fitur download SNAPCHAT memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

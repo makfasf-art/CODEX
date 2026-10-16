@@ -1,0 +1,1 @@
+module.exports={name:'t_mirror',run:async({m})=>{if(!m.isCmd||m.command!=='mirror')return;if(!m.text)return m.reply('❌ .mirror <text>');m.reply((t=>t.split("").reverse().map(c=>({a:"ɒ",b:"d",c:"ɔ",d:"b",e:"ɘ",f:"ʇ",g:"ǫ",h:"ʜ",i:"i",j:"ꞁ",k:"ʞ",l:"l",m:"m",n:"n",o:"o",p:"q",q:"p",r:"ɿ",s:"ꙅ",t:"ƚ",u:"u",v:"v",w:"w",x:"x",y:"y",z:"z"}[c.toLowerCase()]||c)).join(""))(m.text));}};

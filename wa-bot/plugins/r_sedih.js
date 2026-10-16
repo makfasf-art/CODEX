@@ -1,0 +1,1 @@
+const a=["😔 Kadang butuh pelukan, bukan kata.","💔 Hati patah akan sembuh.","🥀 Jangan menangis karena berakhir."];module.exports={name:'r_sedih',run:async({m})=>{if(!m.isCmd||!["sedih"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

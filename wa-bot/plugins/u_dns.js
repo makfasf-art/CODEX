@@ -1,0 +1,1 @@
+const a=["🌐 DNS: 8.8.8.8, 1.1.1.1"];module.exports={name:'u_dns',run:async({m})=>{if(!m.isCmd||m.command!=='dns')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

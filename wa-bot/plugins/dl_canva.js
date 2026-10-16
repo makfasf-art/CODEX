@@ -1,0 +1,1 @@
+module.exports={name:'dl_canva',run:async({m})=>{if(!m.isCmd||!["canva","canvadl"].includes(m.command))return;m.reply("❌ Fitur download CANVA memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

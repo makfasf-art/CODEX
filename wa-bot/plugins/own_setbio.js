@@ -1,0 +1,1 @@
+module.exports={name:'own_setbio',run:async({m})=>{if(!m.isCmd||!["setbio"].includes(m.command))return;m.reply("👑 Command setbio khusus owner.");}};

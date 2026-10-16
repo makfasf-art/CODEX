@@ -1,0 +1,1 @@
+module.exports={name:'t_binary',run:async({m})=>{if(!m.isCmd||m.command!=='binary')return;if(!m.text)return m.reply('❌ .binary <text>');m.reply((t=>t.split("").map(c=>c.charCodeAt(0).toString(2)).join(" "))(m.text));}};

@@ -1,0 +1,1 @@
+module.exports={name:'info_prefix',run:async({m})=>{if(!m.isCmd||!["prefix"].includes(m.command))return;m.reply("📍 Prefix: . ! / #");}};

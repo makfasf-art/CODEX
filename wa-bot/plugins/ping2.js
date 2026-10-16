@@ -1,0 +1,1 @@
+module.exports={name:'ping2',run:async({m})=>{if(!m.isCmd||!["pong"].includes(m.command))return;m.reply("🏓 Ping balik!");}};

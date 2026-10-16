@@ -1,0 +1,1 @@
+const a=["📍 Tempat fav: Desa"];module.exports={name:'fun_tempat',run:async({m})=>{if(!m.isCmd||!["tempat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

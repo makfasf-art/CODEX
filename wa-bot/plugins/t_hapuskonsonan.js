@@ -1,0 +1,1 @@
+module.exports={name:'t_hapuskonsonan',run:async({m})=>{if(!m.isCmd||m.command!=='hapuskonsonan')return;if(!m.text)return m.reply('❌ .hapuskonsonan <text>');m.reply((t=>t.replace(/[^aiueo\s]/gi,""))(m.text));}};

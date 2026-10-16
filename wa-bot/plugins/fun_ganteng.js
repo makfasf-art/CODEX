@@ -1,0 +1,1 @@
+const a=["💙 Ganteng: 82%"];module.exports={name:'fun_ganteng',run:async({m})=>{if(!m.isCmd||!["ganteng"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

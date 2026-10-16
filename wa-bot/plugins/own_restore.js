@@ -1,0 +1,1 @@
+module.exports={name:'own_restore',run:async({m})=>{if(!m.isCmd||!["restore"].includes(m.command))return;m.reply("👑 Command restore khusus owner.");}};

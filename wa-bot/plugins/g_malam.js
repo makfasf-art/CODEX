@@ -1,0 +1,1 @@
+const a=["🌙 Selamat malam!","🌌 Malam, jangan lupa tidur!"];module.exports={name:'g_malam',run:async({m})=>{if(!m.isCmd||!["malam"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

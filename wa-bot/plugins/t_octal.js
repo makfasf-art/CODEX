@@ -1,0 +1,1 @@
+module.exports={name:'t_octal',run:async({m})=>{if(!m.isCmd||m.command!=='octal')return;if(!m.text)return m.reply('❌ .octal <text>');m.reply((t=>t.split("").map(c=>c.charCodeAt(0).toString(8)).join(" "))(m.text));}};

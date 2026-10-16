@@ -1,0 +1,1 @@
+module.exports={name:'ai_aiwriter',run:async({m})=>{if(!m.isCmd||!["aiwriter"].includes(m.command))return;m.reply("🤖 Fitur AI aiwriter memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

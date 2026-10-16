@@ -1,0 +1,1 @@
+module.exports={name:'grp_promote',run:async({m})=>{if(!m.isCmd||!["promote"].includes(m.command))return;m.reply("⚙️ Fitur promote di grup.\nFitur lanjutan butuh API tambahan.");}};

@@ -1,0 +1,1 @@
+const a=["👍 Oke!","👌 Sip!"];module.exports={name:'g_ok',run:async({m})=>{if(!m.isCmd||!["ok"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

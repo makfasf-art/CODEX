@@ -1,0 +1,1 @@
+const a=["📖 Bersama kesulitan ada kemudahan (94:6)","📖 Allah bersama orang sabar (2:153)"];module.exports={name:'r_ayat',run:async({m})=>{if(!m.isCmd||!["ayat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

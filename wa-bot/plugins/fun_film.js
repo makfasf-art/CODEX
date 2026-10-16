@@ -1,0 +1,1 @@
+const a=["🎬 Genre film: Action"];module.exports={name:'fun_film',run:async({m})=>{if(!m.isCmd||!["film"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

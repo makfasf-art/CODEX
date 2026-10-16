@@ -1,0 +1,1 @@
+const a=["🕌 Sholat tepat waktu.","📿 Perbanyak dzikir.","🤲 Sedekah tiap hari."];module.exports={name:'r_nasihatislam',run:async({m})=>{if(!m.isCmd||!["nasihatislam"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

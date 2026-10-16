@@ -1,0 +1,1 @@
+module.exports={name:'dl_likee',run:async({m})=>{if(!m.isCmd||!["likee","likeedl"].includes(m.command))return;m.reply("❌ Fitur download LIKEE memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

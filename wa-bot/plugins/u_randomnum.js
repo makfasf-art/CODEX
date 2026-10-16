@@ -1,0 +1,1 @@
+const a=["🔢 257643"];module.exports={name:'u_randomnum',run:async({m})=>{if(!m.isCmd||m.command!=='randomnum')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

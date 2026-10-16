@@ -1,0 +1,1 @@
+const a=["♈ Zodiak: Aries"];module.exports={name:'fun_zodiak',run:async({m})=>{if(!m.isCmd||!["zodiak"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'grp_setname',run:async({m})=>{if(!m.isCmd||!["setname"].includes(m.command))return;m.reply("⚙️ Fitur setname di grup.\nFitur lanjutan butuh API tambahan.");}};

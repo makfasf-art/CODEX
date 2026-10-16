@@ -1,0 +1,1 @@
+module.exports={name:'dl_pinterest',run:async({m})=>{if(!m.isCmd||!["pinterest","pinterestdl"].includes(m.command))return;m.reply("❌ Fitur download PINTEREST memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

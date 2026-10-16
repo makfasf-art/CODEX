@@ -1,0 +1,1 @@
+module.exports={name:'ai_character',run:async({m})=>{if(!m.isCmd||!["character"].includes(m.command))return;m.reply("🤖 Fitur AI character memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

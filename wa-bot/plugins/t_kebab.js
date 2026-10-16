@@ -1,0 +1,1 @@
+module.exports={name:'t_kebab',run:async({m})=>{if(!m.isCmd||m.command!=='kebab')return;if(!m.text)return m.reply('❌ .kebab <text>');m.reply((t=>t.toLowerCase().replace(/\s+/g,"-"))(m.text));}};

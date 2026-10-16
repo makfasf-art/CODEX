@@ -1,0 +1,1 @@
+const a=["💕 Kamu alasan aku senyum.","🌹 Cintaku seperti bintang.","💖 Kamu indah dari langit malam."];module.exports={name:'r_romantis',run:async({m})=>{if(!m.isCmd||!["romantis"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

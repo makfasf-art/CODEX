@@ -1,0 +1,1 @@
+const a=["Kesabaran kunci semua pintu.","Ilmu tanpa amal seperti pohon tanpa buah.","Waktu adalah pedang."];module.exports={name:'r_katabijak',run:async({m})=>{if(!m.isCmd||!["katabijak"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

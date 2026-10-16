@@ -1,0 +1,1 @@
+module.exports={name:'t_mono',run:async({m})=>{if(!m.isCmd||m.command!=='mono')return;if(!m.text)return m.reply('❌ .mono <text>');m.reply((t=>"```"+t+"```")(m.text));}};

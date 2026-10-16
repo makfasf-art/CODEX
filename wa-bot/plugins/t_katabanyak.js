@@ -1,0 +1,1 @@
+module.exports={name:'t_katabanyak',run:async({m})=>{if(!m.isCmd||m.command!=='katabanyak')return;if(!m.text)return m.reply('❌ .katabanyak <text>');m.reply((t=>t+" "+t+" "+t)(m.text));}};

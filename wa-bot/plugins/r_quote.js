@@ -1,0 +1,1 @@
+const a=["\"Jangan tunggu sempurna untuk memulai.\"","\"Kesuksesan adalah hasil usaha kecil berulang.\"","\"Hidup adalah 10% yang terjadi padamu, 90% reaksimu.\"","\"Mimpi besar dimulai dari langkah kecil.\""];module.exports={name:'r_quote',run:async({m})=>{if(!m.isCmd||!["quote"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

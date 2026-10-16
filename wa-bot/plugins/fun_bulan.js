@@ -1,0 +1,1 @@
+const a=["📅 Bulan fav: April"];module.exports={name:'fun_bulan',run:async({m})=>{if(!m.isCmd||!["bulan"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_slug',run:async({m})=>{if(!m.isCmd||m.command!=='slug')return;if(!m.text)return m.reply('❌ .slug <text>');m.reply((t=>t.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,""))(m.text));}};

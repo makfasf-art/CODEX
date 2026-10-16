@@ -1,0 +1,1 @@
+const a=["👼 10 Malaikat: Jibril, Mikail, Israfil, Izrail, Munkar, Nakir, Raqib, Atid, Malik, Ridwan"];module.exports={name:'i_malaikat',run:async({m})=>{if(!m.isCmd||!["malaikat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

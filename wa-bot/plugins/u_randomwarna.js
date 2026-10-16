@@ -1,0 +1,1 @@
+const a="🔵 Biru";module.exports={name:'u_randomwarna',run:async({m})=>{if(!m.isCmd||m.command!=='randomwarna')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

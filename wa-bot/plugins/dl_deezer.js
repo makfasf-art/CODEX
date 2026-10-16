@@ -1,0 +1,1 @@
+module.exports={name:'dl_deezer',run:async({m})=>{if(!m.isCmd||!["deezer","deezerdl"].includes(m.command))return;m.reply("❌ Fitur download DEEZER memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

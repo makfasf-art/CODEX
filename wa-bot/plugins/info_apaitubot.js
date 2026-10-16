@@ -1,0 +1,1 @@
+module.exports={name:'info_apaitubot',run:async({m})=>{if(!m.isCmd||!["apaitubot"].includes(m.command))return;m.reply("🤖 Bot WhatsApp otomatis dengan 670+ fitur");}};

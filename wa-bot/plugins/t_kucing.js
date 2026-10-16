@@ -1,0 +1,1 @@
+module.exports={name:'t_kucing',run:async({m})=>{if(!m.isCmd||m.command!=='kucing')return;if(!m.text)return m.reply('❌ .kucing <text>');m.reply((t=>"🐱 "+t+" 🐱")(m.text));}};

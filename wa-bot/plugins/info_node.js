@@ -1,0 +1,1 @@
+module.exports={name:'info_node',run:async({m})=>{if(!m.isCmd||!["node"].includes(m.command))return;m.reply("📗 Node: v26.4.0");}};

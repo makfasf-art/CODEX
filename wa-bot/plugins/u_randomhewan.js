@@ -1,0 +1,1 @@
+const a="🐯 Harimau";module.exports={name:'u_randomhewan',run:async({m})=>{if(!m.isCmd||m.command!=='randomhewan')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

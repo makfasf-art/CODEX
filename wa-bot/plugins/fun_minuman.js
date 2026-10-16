@@ -1,0 +1,1 @@
+const a=["🥤 Minuman fav: Susu"];module.exports={name:'fun_minuman',run:async({m})=>{if(!m.isCmd||!["minuman"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

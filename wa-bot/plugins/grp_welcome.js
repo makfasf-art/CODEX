@@ -1,0 +1,1 @@
+module.exports={name:'grp_welcome',run:async({m})=>{if(!m.isCmd||!["welcome"].includes(m.command))return;m.reply("⚙️ Fitur welcome di grup.\nFitur lanjutan butuh API tambahan.");}};

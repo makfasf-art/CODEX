@@ -1,0 +1,1 @@
+module.exports={name:'dl_giphy',run:async({m})=>{if(!m.isCmd||!["giphy","giphydl"].includes(m.command))return;m.reply("❌ Fitur download GIPHY memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

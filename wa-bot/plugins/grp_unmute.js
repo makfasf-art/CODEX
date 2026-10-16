@@ -1,0 +1,1 @@
+module.exports={name:'grp_unmute',run:async({m})=>{if(!m.isCmd||!["unmute"].includes(m.command))return;m.reply("⚙️ Fitur unmute di grup.\nFitur lanjutan butuh API tambahan.");}};

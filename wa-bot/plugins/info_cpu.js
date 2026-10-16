@@ -1,0 +1,1 @@
+module.exports={name:'info_cpu',run:async({m})=>{if(!m.isCmd||!["cpu"].includes(m.command))return;m.reply("⚙️ arm64");}};

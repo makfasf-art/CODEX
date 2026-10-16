@@ -1,0 +1,1 @@
+module.exports={name:'grp_pinggc',run:async({m})=>{if(!m.isCmd||!["pinggc"].includes(m.command))return;m.reply("⚙️ Fitur pinggc di grup.\nFitur lanjutan butuh API tambahan.");}};

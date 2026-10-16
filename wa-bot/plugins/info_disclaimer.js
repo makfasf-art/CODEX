@@ -1,0 +1,1 @@
+module.exports={name:'info_disclaimer',run:async({m})=>{if(!m.isCmd||!["disclaimer"].includes(m.command))return;m.reply("⚠️ Bot ini untuk edukasi. Gunakan dengan bijak.");}};

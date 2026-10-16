@@ -1,0 +1,1 @@
+module.exports={name:'grp_ownergc',run:async({m})=>{if(!m.isCmd||!["ownergc"].includes(m.command))return;m.reply("⚙️ Fitur ownergc di grup.\nFitur lanjutan butuh API tambahan.");}};

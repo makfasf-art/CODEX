@@ -1,0 +1,1 @@
+const a=["الرحمن Yang Maha Pengasih","الرحيم Yang Maha Penyayang","الملك Yang Maha Merajai","القدوس Yang Maha Suci"];module.exports={name:'r_asmaulhusna',run:async({m})=>{if(!m.isCmd||!["asmaulhusna"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

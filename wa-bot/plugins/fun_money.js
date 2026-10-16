@@ -1,0 +1,1 @@
+const a=["💰 Money: $598735"];module.exports={name:'fun_money',run:async({m})=>{if(!m.isCmd||!["money"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

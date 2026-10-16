@@ -1,0 +1,1 @@
+const a=["🎰 🍒🍒🍒 JACKPOT!","🎰 🍋🍋🍒 Coba lagi!","🎰 🍇🍇🍇 JACKPOT!","🎰 💎💎💎 MEGA!"];module.exports={name:'game_slot',run:async({m})=>{if(!m.isCmd||!["slot"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

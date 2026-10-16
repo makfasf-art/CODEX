@@ -1,0 +1,1 @@
+const a=["Jomblo bukan status, tapi kesempatan 😎","Hidup jomblo bebas tapi butuh someone 😔","Jomblo banyak fans, itu keren 🔥"];module.exports={name:'r_jomblo',run:async({m})=>{if(!m.isCmd||!["jomblo"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_wide',run:async({m})=>{if(!m.isCmd||m.command!=='wide')return;if(!m.text)return m.reply('❌ .wide <text>');m.reply((t=>t.split("").join(" "))(m.text));}};

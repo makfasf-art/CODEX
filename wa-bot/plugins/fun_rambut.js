@@ -1,0 +1,1 @@
+const a=["💇 Model rambut: Bergelombang"];module.exports={name:'fun_rambut',run:async({m})=>{if(!m.isCmd||!["rambut"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

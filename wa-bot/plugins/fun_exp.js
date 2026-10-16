@@ -1,0 +1,1 @@
+const a=["⭐ EXP: 2387"];module.exports={name:'fun_exp',run:async({m})=>{if(!m.isCmd||!["exp"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

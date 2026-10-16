@@ -1,0 +1,1 @@
+module.exports={name:'t_dobel',run:async({m})=>{if(!m.isCmd||m.command!=='dobel')return;if(!m.text)return m.reply('❌ .dobel <text>');m.reply((t=>t.split("").map(c=>c+c).join(""))(m.text));}};

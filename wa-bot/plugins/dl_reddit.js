@@ -1,0 +1,1 @@
+module.exports={name:'dl_reddit',run:async({m})=>{if(!m.isCmd||!["reddit","redditdl"].includes(m.command))return;m.reply("❌ Fitur download REDDIT memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

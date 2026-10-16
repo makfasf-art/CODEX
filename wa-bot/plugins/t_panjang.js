@@ -1,0 +1,1 @@
+module.exports={name:'t_panjang',run:async({m})=>{if(!m.isCmd||m.command!=='panjang')return;if(!m.text)return m.reply('❌ .panjang <text>');m.reply((t=>"Panjang: "+t.length+" karakter")(m.text));}};

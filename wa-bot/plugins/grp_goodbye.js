@@ -1,0 +1,1 @@
+module.exports={name:'grp_goodbye',run:async({m})=>{if(!m.isCmd||!["goodbye"].includes(m.command))return;m.reply("⚙️ Fitur goodbye di grup.\nFitur lanjutan butuh API tambahan.");}};
