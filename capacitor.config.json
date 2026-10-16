@@ -1,0 +1,6 @@
+{
+  "appId": "com.codexcx.neoncodex",
+  "appName": "NEON CODE X",
+  "webDir": "public",
+  "server": { "androidScheme": "http", "cleartext": true }
+}

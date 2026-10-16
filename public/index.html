@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>NEON CODE X</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+  <header class="top">
+    <img class="logo" src="logo.png" alt="CODEX CX prjct">
+    <input id="projName" class="pname" maxlength="60" aria-label="Nama project" placeholder="Project baru">
+    <button id="btnProjects" class="btn">Project</button>
+    <button id="btnSettings" class="btn">Atur</button>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <main id="main" class="main" data-pane="chat">
+    <section id="pane-chat" class="pane">
+      <div id="messages" class="messages" aria-live="polite"></div>
+      <div id="errorBox" class="errorbox" hidden>
+        <p id="errorMsg"></p>
+        <div class="row">
+          <button id="btnRetry" class="btn solid">Coba lagi</button>
+          <button id="btnErrSettings" class="btn" hidden>Pengaturan</button>
+        </div>
+      </div>
+      <div id="status" class="status" role="status"></div>
+      <div id="modes" class="modes" role="radiogroup" aria-label="Mode">
+        <button class="chip" data-mode="create">Buat</button>
+        <button class="chip" data-mode="extend">Kembangkan</button>
+        <button class="chip" data-mode="fix">Perbaiki</button>
+        <button class="chip" data-mode="bugs">Cari bug</button>
+        <button class="chip" data-mode="explain">Jelaskan</button>
+      </div>
+      <div class="composer">
+        <textarea id="prompt" rows="1" placeholder="Tulis instruksi…" aria-label="Instruksi"></textarea>
+        <button id="btnSend" class="btn solid send">Kirim</button>
+      </div>
+    </section>
+
+    <section id="pane-code" class="pane">
+      <div class="toolbar">
+        <div id="fileTabs" class="tabs" role="tablist"></div>
+        <button id="btnAddFile" class="btn small" aria-label="File baru">+</button>
+      </div>
+      <div class="editor" id="editorWrap">
+        <pre id="hl" aria-hidden="true"><code></code></pre>
+        <textarea id="code" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" aria-label="Editor kode"></textarea>
+        <p id="codeEmpty" class="empty">Belum ada file. Minta AI membuat project, atau tambah file dengan +.</p>
+      </div>
+      <div class="toolbar foot">
+        <span id="fileInfo" class="info"></span>
+        <button id="btnCopy" class="btn small">Salin</button>
+        <button id="btnDownload" class="btn small">Unduh</button>
+        <button id="btnDelFile" class="btn small">Hapus</button>
+      </div>
+    </section>
+
+    <section id="pane-preview" class="pane">
+      <div class="toolbar">
+        <span id="previewInfo" class="info">Preview</span>
+        <button id="btnReload" class="btn small">Muat ulang</button>
+      </div>
+      <iframe id="preview" title="Preview" sandbox="allow-scripts allow-modals allow-forms allow-popups"></iframe>
+      <p id="previewEmpty" class="empty">Preview tersedia untuk file HTML atau SVG.</p>
+    </section>
+  </main>
+
+  <nav class="tabbar" id="tabbar">
+    <button data-pane="chat" class="on">Chat</button>
+    <button data-pane="code">Kode</button>
+    <button data-pane="preview">Preview</button>
+  </nav>
+</div>
+
+<dialog id="dlgProjects">
+  <h2>Riwayat project</h2>
+  <div id="projectList" class="plist"></div>
+  <div class="row end">
+    <button id="btnNewProject" class="btn solid">Project baru</button>
+    <button class="btn" data-close>Tutup</button>
+  </div>
+</dialog>
+
+<dialog id="dlgSettings">
+  <h2>Pengaturan</h2>
+  <label for="apiBase">Alamat server backend</label>
+  <input id="apiBase" type="url" placeholder="kosong = server yang sama" autocomplete="off" autocapitalize="off">
+  <p class="hint">Untuk APK, isi alamat backend yang bisa dijangkau HP, mis. https://domainmu.com atau http://192.168.1.10:3000. API key OpenAI tetap hanya di backend.</p>
+  <p id="testResult" class="hint"></p>
+  <div class="row end">
+    <button id="btnTest" class="btn">Tes koneksi</button>
+    <button id="btnSaveSettings" class="btn solid">Simpan</button>
+    <button class="btn" data-close>Tutup</button>
+  </div>
+</dialog>
+
+<div id="toast" class="toast" role="status" hidden></div>
+
+<script src="config.js"></script>
+<script src="highlight.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
