@@ -1,0 +1,1 @@
+module.exports={name:'own_updatebot',run:async({m})=>{if(!m.isCmd||!["updatebot"].includes(m.command))return;m.reply("👑 Command updatebot khusus owner.");}};

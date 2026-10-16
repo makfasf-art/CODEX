@@ -1,0 +1,1 @@
+module.exports={name:'ai_copilot',run:async({m})=>{if(!m.isCmd||!["copilot"].includes(m.command))return;m.reply("🤖 Fitur AI copilot memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_bilibili',run:async({m})=>{if(!m.isCmd||!["bilibili","bilibilidl"].includes(m.command))return;m.reply("❌ Fitur download BILIBILI memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

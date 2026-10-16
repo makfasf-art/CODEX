@@ -1,0 +1,1 @@
+module.exports={name:'t_formal2',run:async({m})=>{if(!m.isCmd||m.command!=='formal2')return;if(!m.text)return m.reply('❌ .formal2 <text>');m.reply((t=>"Yang terhormat, "+t)(m.text));}};

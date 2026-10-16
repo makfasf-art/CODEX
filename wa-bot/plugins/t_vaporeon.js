@@ -1,0 +1,1 @@
+module.exports={name:'t_vaporeon',run:async({m})=>{if(!m.isCmd||m.command!=='vaporeon')return;if(!m.text)return m.reply('❌ .vaporeon <text>');m.reply((t=>t.split("").join(" ").replace(/ /g,"　"))(m.text));}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_alay',run:async({m})=>{if(!m.isCmd||m.command!=='alay')return;if(!m.text)return m.reply('❌ .alay <text>');m.reply((t=>t.split("").map(c=>Math.random()>.5?c.toUpperCase():c.toLowerCase()).join(""))(m.text));}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_hex',run:async({m})=>{if(!m.isCmd||m.command!=='hex')return;if(!m.text)return m.reply('❌ .hex <text>');m.reply((t=>t.split("").map(c=>c.charCodeAt(0).toString(16)).join(" "))(m.text));}};

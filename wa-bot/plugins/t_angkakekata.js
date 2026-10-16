@@ -1,0 +1,1 @@
+module.exports={name:'t_angkakekata',run:async({m})=>{if(!m.isCmd||m.command!=='angkakekata')return;if(!m.text)return m.reply('❌ .angkakekata <text>');m.reply((t=>t.replace(/0/g,"nol ").replace(/1/g,"satu ").replace(/2/g,"dua ").replace(/3/g,"tiga "))(m.text));}};

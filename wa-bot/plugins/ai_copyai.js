@@ -1,0 +1,1 @@
+module.exports={name:'ai_copyai',run:async({m})=>{if(!m.isCmd||!["copyai"].includes(m.command))return;m.reply("🤖 Fitur AI copyai memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

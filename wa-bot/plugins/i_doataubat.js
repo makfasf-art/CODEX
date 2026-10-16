@@ -1,0 +1,1 @@
+const a=["🤲 Astaghfirullahal adzim","🤲 Taubat nasuha"];module.exports={name:'i_doataubat',run:async({m})=>{if(!m.isCmd||!["doataubat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

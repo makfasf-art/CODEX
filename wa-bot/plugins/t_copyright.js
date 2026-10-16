@@ -1,0 +1,1 @@
+module.exports={name:'t_copyright',run:async({m})=>{if(!m.isCmd||m.command!=='copyright')return;if(!m.text)return m.reply('❌ .copyright <text>');m.reply((t=>"© "+t)(m.text));}};

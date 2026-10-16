@@ -1,0 +1,1 @@
+module.exports={name:'t_mention',run:async({m})=>{if(!m.isCmd||m.command!=='mention')return;if(!m.text)return m.reply('❌ .mention <text>');m.reply((t=>"@"+t)(m.text));}};

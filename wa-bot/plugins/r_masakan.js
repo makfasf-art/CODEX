@@ -1,0 +1,1 @@
+const a=["🍜 Ramen dari Tiongkok.","🍕 Pizza dari Italia.","🥢 Sushi pakai tangan."];module.exports={name:'r_masakan',run:async({m})=>{if(!m.isCmd||!["masakan"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

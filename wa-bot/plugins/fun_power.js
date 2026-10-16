@@ -1,0 +1,1 @@
+const a=["💪 Power level: 6960"];module.exports={name:'fun_power',run:async({m})=>{if(!m.isCmd||!["power"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+const a=["💸 Kamu menang 239 koin!","💸 Kamu kalah!"];module.exports={name:'game_gambling',run:async({m})=>{if(!m.isCmd||!["gambling"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

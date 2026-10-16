@@ -1,0 +1,1 @@
+module.exports={name:'info_keamanan',run:async({m})=>{if(!m.isCmd||!["keamanan"].includes(m.command))return;m.reply("🛡️ Jangan share token/session ke orang lain");}};

@@ -1,0 +1,1 @@
+const a=["🤣 Ketawa dulu, nanti lupa masalah.","😆 Hidup kayak meme, kadang lucu kadang nangis."];module.exports={name:'r_meme',run:async({m})=>{if(!m.isCmd||!["meme"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

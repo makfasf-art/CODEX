@@ -1,0 +1,1 @@
+module.exports={name:'grp_listadmin',run:async({m})=>{if(!m.isCmd||!["listadmin"].includes(m.command))return;m.reply("⚙️ Fitur listadmin di grup.\nFitur lanjutan butuh API tambahan.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'grp_antibadword',run:async({m})=>{if(!m.isCmd||!["antibadword"].includes(m.command))return;m.reply("⚙️ Fitur antibadword di grup.\nFitur lanjutan butuh API tambahan.");}};

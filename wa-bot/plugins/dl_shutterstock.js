@@ -1,0 +1,1 @@
+module.exports={name:'dl_shutterstock',run:async({m})=>{if(!m.isCmd||!["shutterstock","shutterstockdl"].includes(m.command))return;m.reply("❌ Fitur download SHUTTERSTOCK memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

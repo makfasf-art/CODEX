@@ -1,0 +1,1 @@
+module.exports={name:'t_cursive',run:async({m})=>{if(!m.isCmd||m.command!=='cursive')return;if(!m.text)return m.reply('❌ .cursive <text>');m.reply((t=>[...t].map(c=>/\w/.test(c)?String.fromCharCode(0x1D4B6+(c.toLowerCase().charCodeAt(0)-97)):c).join(""))(m.text));}};

@@ -1,0 +1,1 @@
+module.exports={name:'info_waktu',run:async({m})=>{if(!m.isCmd||!["waktu"].includes(m.command))return;m.reply("⏰ Asia/Jakarta");}};

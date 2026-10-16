@@ -1,0 +1,1 @@
+module.exports={name:'own_clearchat',run:async({m})=>{if(!m.isCmd||!["clearchat"].includes(m.command))return;m.reply("👑 Command clearchat khusus owner.");}};

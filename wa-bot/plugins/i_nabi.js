@@ -1,0 +1,1 @@
+const a=["🕌 25 Nabi: Adam, Idris, Nuh, Hud, Sholeh, Ibrahim, Luth, Ismail, Ishaq, Yaqub, Yusuf, Ayyub, Syuaib, Musa, Harun, Dzulkifli, Daud, Sulaiman, Ilyas, Ilyasa, Yunus, Zakaria, Yahya, Isa, Muhammad"];module.exports={name:'i_nabi',run:async({m})=>{if(!m.isCmd||!["nabi"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

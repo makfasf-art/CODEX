@@ -1,0 +1,1 @@
+module.exports={name:'t_registered',run:async({m})=>{if(!m.isCmd||m.command!=='registered')return;if(!m.text)return m.reply('❌ .registered <text>');m.reply((t=>t+"®")(m.text));}};

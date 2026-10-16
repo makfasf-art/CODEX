@@ -1,0 +1,1 @@
+module.exports={name:'grp_tagall',run:async({m})=>{if(!m.isCmd||!["tagall"].includes(m.command))return;m.reply("⚙️ Fitur tagall di grup.\nFitur lanjutan butuh API tambahan.");}};

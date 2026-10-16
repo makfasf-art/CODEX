@@ -1,0 +1,1 @@
+module.exports={name:'own_setprefix',run:async({m})=>{if(!m.isCmd||!["setprefix"].includes(m.command))return;m.reply("👑 Command setprefix khusus owner.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_capcut',run:async({m})=>{if(!m.isCmd||!["capcut","capcutdl"].includes(m.command))return;m.reply("❌ Fitur download CAPCUT memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

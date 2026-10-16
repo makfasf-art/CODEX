@@ -1,0 +1,1 @@
+module.exports={name:'dl_facebook',run:async({m})=>{if(!m.isCmd||!["facebook","facebookdl"].includes(m.command))return;m.reply("❌ Fitur download FACEBOOK memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

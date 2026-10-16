@@ -1,0 +1,1 @@
+module.exports={name:'own_unloadplugin',run:async({m})=>{if(!m.isCmd||!["unloadplugin"].includes(m.command))return;m.reply("👑 Command unloadplugin khusus owner.");}};

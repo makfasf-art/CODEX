@@ -1,0 +1,1 @@
+const a=["💨 AGI: 94"];module.exports={name:'fun_agility',run:async({m})=>{if(!m.isCmd||!["agility"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

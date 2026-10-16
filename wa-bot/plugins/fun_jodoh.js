@@ -1,0 +1,1 @@
+const a=["💑 Jodoh: 85%"];module.exports={name:'fun_jodoh',run:async({m})=>{if(!m.isCmd||!["jodoh"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_twitch',run:async({m})=>{if(!m.isCmd||!["twitch","twitchdl"].includes(m.command))return;m.reply("❌ Fitur download TWITCH memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

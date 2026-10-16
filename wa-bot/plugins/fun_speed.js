@@ -1,0 +1,1 @@
+const a=["⚡ Speed: 28 km/h"];module.exports={name:'fun_speed',run:async({m})=>{if(!m.isCmd||!["speed"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

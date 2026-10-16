@@ -1,0 +1,1 @@
+module.exports={name:'ai_jasper',run:async({m})=>{if(!m.isCmd||!["jasper"].includes(m.command))return;m.reply("🤖 Fitur AI jasper memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

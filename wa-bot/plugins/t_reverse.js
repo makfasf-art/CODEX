@@ -1,0 +1,1 @@
+module.exports={name:'t_reverse',run:async({m})=>{if(!m.isCmd||m.command!=='reverse')return;if(!m.text)return m.reply('❌ .reverse <text>');m.reply((t=>t.split("").reverse().join(""))(m.text));}};

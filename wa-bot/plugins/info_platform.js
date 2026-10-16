@@ -1,0 +1,1 @@
+module.exports={name:'info_platform',run:async({m})=>{if(!m.isCmd||!["platform"].includes(m.command))return;m.reply("🖥️ android");}};

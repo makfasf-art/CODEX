@@ -1,0 +1,1 @@
+module.exports={name:'t_star',run:async({m})=>{if(!m.isCmd||m.command!=='star')return;if(!m.text)return m.reply('❌ .star <text>');m.reply((t=>t.split(" ").join(" ⭐ "))(m.text));}};

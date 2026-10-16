@@ -1,0 +1,1 @@
+module.exports={name:'t_emoji',run:async({m})=>{if(!m.isCmd||m.command!=='emoji')return;if(!m.text)return m.reply('❌ .emoji <text>');m.reply((t=>t.split(" ").join(" 😄 "))(m.text));}};

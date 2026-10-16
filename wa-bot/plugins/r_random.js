@@ -1,0 +1,1 @@
+const a=["🎲 Dadu: 5","🎯 Angka hoki: 67"];module.exports={name:'r_random',run:async({m})=>{if(!m.isCmd||!["random"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

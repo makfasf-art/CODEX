@@ -1,0 +1,1 @@
+module.exports={name:'t_jumlahkonsonan',run:async({m})=>{if(!m.isCmd||m.command!=='jumlahkonsonan')return;if(!m.text)return m.reply('❌ .jumlahkonsonan <text>');m.reply((t=>(t.match(/[^aiueo\s]/gi)||[]).length+" konsonan")(m.text));}};

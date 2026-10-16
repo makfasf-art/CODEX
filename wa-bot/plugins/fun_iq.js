@@ -1,0 +1,1 @@
+const a=["🧠 IQ: 116"];module.exports={name:'fun_iq',run:async({m})=>{if(!m.isCmd||!["iq"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

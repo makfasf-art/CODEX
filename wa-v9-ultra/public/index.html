@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>V9 ULTRA Game</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080808;color:#eee;font-family:Arial,sans-serif}
+main{max-width:520px;margin:35px auto;padding:20px}
+h1{color:#ff254b;text-shadow:0 0 18px #ff003c}
+.panel{background:#121212;border:1px solid #39202a;border-radius:15px;padding:18px;margin:15px 0}
+input,button{padding:12px;border-radius:9px;border:1px solid #55303a;background:#191919;color:white}
+button{cursor:pointer}
+button:hover{border-color:#ff254b}
+#board{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:15px}
+.cell{height:95px;font-size:32px;color:#ff3159}
+small,#status{color:#aaa}
+</style>
+</head>
+<body>
+<main>
+<h1>V9 ULTRA</h1>
+<p>WebSocket Multiplayer · Tic-Tac-Toe</p>
+<div class="panel">
+<label>Kode room</label><br><br>
+<input id="room" value="umum" maxlength="32">
+<button id="join">Gabung</button>
+<p id="status">Belum terhubung.</p>
+<div id="board"></div><br>
+<button id="restart">Mulai ulang</button>
+</div>
+<small>Multiplayer memerlukan dua pemain yang terhubung ke server yang sama.</small>
+</main>
+<script>
+const statusEl = document.querySelector('#status');
+const boardEl = document.querySelector('#board');
+let ws, joined = false, symbol = null;
+function connect() {
+  if (ws) ws.close();
+  const scheme = location.protocol === 'https:' ? 'wss:' : 'ws:';
+  ws = new WebSocket(scheme + '//' + location.host);
+  ws.onopen = () => {
+    ws.send(JSON.stringify({
+      type:'join',
+      room:document.querySelector('#room').value.trim() || 'umum'
+    }));
+  };
+  ws.onmessage = e => {
+    const d = JSON.parse(e.data);
+    if (d.type === 'joined') {
+      joined = true;
+      symbol = d.symbol;
+      statusEl.textContent = 'Room ' + d.room + ' · Kamu: ' + (symbol || 'penonton');
+    }
+    if (d.type === 'state') {
+      boardEl.replaceChildren();
+      d.board.forEach((v,i) => {
+        const b = document.createElement('button');
+        b.className = 'cell';
+        b.textContent = v || '·';
+        b.disabled = !!v || !!d.result || !symbol ||
+          symbol !== d.turn || d.players < 2;
+        b.onclick = () => ws.send(JSON.stringify({type:'move',pos:i}));
+        boardEl.appendChild(b);
+      });
+      statusEl.textContent = d.result
+        ? (d.result === 'DRAW' ? 'Seri!' : 'Pemenang: ' + d.result)
+        : d.players < 2 ? 'Menunggu pemain kedua...'
+        : 'Giliran: ' + d.turn + ' · Kamu: ' + (symbol || 'penonton');
+    }
+    if (d.type === 'error') statusEl.textContent = d.message;
+  };
+  ws.onclose = () => { joined = false; statusEl.textContent = 'Koneksi terputus.'; };
+}
+document.querySelector('#join').onclick = connect;
+document.querySelector('#restart').onclick = () => {
+  if (ws && ws.readyState === WebSocket.OPEN)
+    ws.send(JSON.stringify({type:'restart'}));
+};
+for (let i=0;i<9;i++) {
+  const b = document.createElement('button');
+  b.className = 'cell';
+  b.textContent = '·';
+  b.disabled = true;
+  boardEl.appendChild(b);
+}
+</script>
+</body>
+</html>

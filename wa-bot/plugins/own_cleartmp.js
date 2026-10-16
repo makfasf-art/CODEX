@@ -1,0 +1,1 @@
+module.exports={name:'own_cleartmp',run:async({m})=>{if(!m.isCmd||!["cleartmp"].includes(m.command))return;m.reply("👑 Command cleartmp khusus owner.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_spotify',run:async({m})=>{if(!m.isCmd||!["spotify","spotifydl"].includes(m.command))return;m.reply("❌ Fitur download SPOTIFY memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

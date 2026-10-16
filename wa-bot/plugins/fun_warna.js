@@ -1,0 +1,1 @@
+const a=["🎨 Warna fav: Hijau"];module.exports={name:'fun_warna',run:async({m})=>{if(!m.isCmd||!["warna"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

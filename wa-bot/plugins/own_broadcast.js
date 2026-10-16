@@ -1,0 +1,1 @@
+module.exports={name:'own_broadcast',run:async({m})=>{if(!m.isCmd||!["broadcast"].includes(m.command))return;m.reply("👑 Command broadcast khusus owner.");}};

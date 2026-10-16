@@ -1,0 +1,1 @@
+const a=["🌤️ Selamat siang!"];module.exports={name:'g_siang',run:async({m})=>{if(!m.isCmd||!["siang"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

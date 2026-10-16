@@ -1,0 +1,1 @@
+module.exports={name:'info_creator',run:async({m})=>{if(!m.isCmd||!["creator"].includes(m.command))return;m.reply("👨‍💻 NEXUS-BOT Dev");}};

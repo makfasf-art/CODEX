@@ -1,0 +1,1 @@
+module.exports={name:'dl_wechat',run:async({m})=>{if(!m.isCmd||!["wechat","wechatdl"].includes(m.command))return;m.reply("❌ Fitur download WECHAT memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

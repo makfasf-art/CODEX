@@ -1,0 +1,1 @@
+module.exports={name:'rules',run:async({m})=>{if(!m.isCmd||!["rules","aturan"].includes(m.command))return;m.reply("📜 Aturan:\n1. Sopan\n2. No spam\n3. No toxic\n4. Enjoy!");}};

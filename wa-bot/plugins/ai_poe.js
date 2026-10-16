@@ -1,0 +1,1 @@
+module.exports={name:'ai_poe',run:async({m})=>{if(!m.isCmd||!["poe"].includes(m.command))return;m.reply("🤖 Fitur AI poe memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

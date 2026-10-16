@@ -1,0 +1,1 @@
+module.exports={name:'grp_antispam',run:async({m})=>{if(!m.isCmd||!["antispam"].includes(m.command))return;m.reply("⚙️ Fitur antispam di grup.\nFitur lanjutan butuh API tambahan.");}};

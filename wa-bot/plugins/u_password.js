@@ -1,0 +1,1 @@
+const a=["🔐 Pass: 3y6hg36r"];module.exports={name:'u_password',run:async({m})=>{if(!m.isCmd||m.command!=='password')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

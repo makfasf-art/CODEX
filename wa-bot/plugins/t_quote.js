@@ -1,0 +1,1 @@
+module.exports={name:'t_quote',run:async({m})=>{if(!m.isCmd||m.command!=='quote')return;if(!m.text)return m.reply('❌ .quote <text>');m.reply((t=>"> "+t.split("\n").join("\n> "))(m.text));}};

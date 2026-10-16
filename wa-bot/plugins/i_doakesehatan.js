@@ -1,0 +1,1 @@
+const a=["🤲 Ya Allah sembuhkan penyakitku","🤲 Ya Allah beri kesehatan"];module.exports={name:'i_doakesehatan',run:async({m})=>{if(!m.isCmd||!["doakesehatan"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

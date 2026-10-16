@@ -1,0 +1,1 @@
+module.exports={name:'info_saran',run:async({m})=>{if(!m.isCmd||!["saran"].includes(m.command))return;m.reply("💡 Kirim saran ke owner");}};

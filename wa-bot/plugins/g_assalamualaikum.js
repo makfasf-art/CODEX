@@ -1,0 +1,1 @@
+const a=["🙏 Waalaikumussalam warahmatullahi wabarakatuh","🙏 Waalaikumussalam"];module.exports={name:'g_assalamualaikum',run:async({m})=>{if(!m.isCmd||!["assalamualaikum"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

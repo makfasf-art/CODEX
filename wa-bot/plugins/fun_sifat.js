@@ -1,0 +1,1 @@
+const a=["🧬 Sifat: Pendiam"];module.exports={name:'fun_sifat',run:async({m})=>{if(!m.isCmd||!["sifat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

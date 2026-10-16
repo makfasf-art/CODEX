@@ -1,0 +1,1 @@
+const a=["💕 Love meter: 38%"];module.exports={name:'fun_love',run:async({m})=>{if(!m.isCmd||!["love"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

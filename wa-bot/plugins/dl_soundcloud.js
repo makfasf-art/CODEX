@@ -1,0 +1,1 @@
+module.exports={name:'dl_soundcloud',run:async({m})=>{if(!m.isCmd||!["soundcloud","soundclouddl"].includes(m.command))return;m.reply("❌ Fitur download SOUNDCLOUD memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

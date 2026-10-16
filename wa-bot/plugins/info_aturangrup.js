@@ -1,0 +1,1 @@
+module.exports={name:'info_aturangrup',run:async({m})=>{if(!m.isCmd||!["aturangrup"].includes(m.command))return;m.reply("📜 1. Dilarang spam\n2. Dilarang SARA\n3. Dilarang promosi\n4. Hormati sesama\n5. Jangan toxic");}};

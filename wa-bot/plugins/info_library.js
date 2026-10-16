@@ -1,0 +1,1 @@
+module.exports={name:'info_library',run:async({m})=>{if(!m.isCmd||!["library"].includes(m.command))return;m.reply("📦 Baileys + WebSocket");}};

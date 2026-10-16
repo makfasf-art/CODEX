@@ -1,0 +1,1 @@
+const a=["🎵 Genre musik: Jazz"];module.exports={name:'fun_musik',run:async({m})=>{if(!m.isCmd||!["musik"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

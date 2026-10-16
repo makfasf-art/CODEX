@@ -1,0 +1,1 @@
+module.exports={name:'dl_kuaishou',run:async({m})=>{if(!m.isCmd||!["kuaishou","kuaishoudl"].includes(m.command))return;m.reply("❌ Fitur download KUAISHOU memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

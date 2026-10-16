@@ -1,0 +1,1 @@
+const a=["🎓 Pintar: 73%"];module.exports={name:'fun_pintar',run:async({m})=>{if(!m.isCmd||!["pintar"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

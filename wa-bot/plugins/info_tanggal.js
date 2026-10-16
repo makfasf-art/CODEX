@@ -1,0 +1,1 @@
+module.exports={name:'info_tanggal',run:async({m})=>{if(!m.isCmd||!["tanggal"].includes(m.command))return;m.reply("📅 10/10/2026");}};

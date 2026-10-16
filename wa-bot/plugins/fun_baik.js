@@ -1,0 +1,1 @@
+const a=["😇 Baik: 71%"];module.exports={name:'fun_baik',run:async({m})=>{if(!m.isCmd||!["baik"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'info_hari',run:async({m})=>{if(!m.isCmd||!["hari"].includes(m.command))return;m.reply("📆 Sabtu");}};

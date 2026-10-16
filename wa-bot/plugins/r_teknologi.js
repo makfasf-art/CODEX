@@ -1,0 +1,1 @@
+const a=["💻 Komputer pertama ENIAC 27 ton.","📱 HP pertama Nokia 3310.","💾 Floppy 1.44MB."];module.exports={name:'r_teknologi',run:async({m})=>{if(!m.isCmd||!["teknologi"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

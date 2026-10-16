@@ -1,0 +1,1 @@
+module.exports={name:'info_manfaatgrup',run:async({m})=>{if(!m.isCmd||!["manfaatgrup"].includes(m.command))return;m.reply("✅ Belajar bersama\n✅ Silaturahmi\n✅ Info penting\n✅ Kolaborasi");}};

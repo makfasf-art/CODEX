@@ -1,0 +1,1 @@
+module.exports={name:'dl_linkedin',run:async({m})=>{if(!m.isCmd||!["linkedin","linkedindl"].includes(m.command))return;m.reply("❌ Fitur download LINKEDIN memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

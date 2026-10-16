@@ -1,0 +1,1 @@
+const a=["🍀 LUCK: 90"];module.exports={name:'fun_luck',run:async({m})=>{if(!m.isCmd||!["luck"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

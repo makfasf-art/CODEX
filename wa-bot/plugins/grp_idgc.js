@@ -1,0 +1,1 @@
+module.exports={name:'grp_idgc',run:async({m})=>{if(!m.isCmd||!["idgc"].includes(m.command))return;m.reply("⚙️ Fitur idgc di grup.\nFitur lanjutan butuh API tambahan.");}};

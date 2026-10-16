@@ -1,0 +1,1 @@
+const a=["❌ Salah!"];module.exports={name:'g_salah',run:async({m})=>{if(!m.isCmd||!["salah"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+const a=["🍾 Botol menunjuk ke: depan"];module.exports={name:'game_spinthebottle',run:async({m})=>{if(!m.isCmd||!["spinthebottle"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

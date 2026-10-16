@@ -1,0 +1,1 @@
+module.exports={name:'own_eval',run:async({m})=>{if(!m.isCmd||!["eval"].includes(m.command))return;m.reply("👑 Command eval khusus owner.");}};

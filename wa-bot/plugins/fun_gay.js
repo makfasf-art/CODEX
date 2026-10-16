@@ -1,0 +1,1 @@
+const a=["🏳️‍🌈 Gay level: 80%"];module.exports={name:'fun_gay',run:async({m})=>{if(!m.isCmd||!["gay"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_shuffle',run:async({m})=>{if(!m.isCmd||m.command!=='shuffle')return;if(!m.text)return m.reply('❌ .shuffle <text>');m.reply((t=>t.split("").sort(()=>Math.random()-.5).join(""))(m.text));}};

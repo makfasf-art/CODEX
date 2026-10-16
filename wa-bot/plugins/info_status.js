@@ -1,0 +1,1 @@
+module.exports={name:'info_status',run:async({m})=>{if(!m.isCmd||!["status"].includes(m.command))return;m.reply("✅ Online 24/7");}};

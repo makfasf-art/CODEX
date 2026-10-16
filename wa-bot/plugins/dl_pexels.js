@@ -1,0 +1,1 @@
+module.exports={name:'dl_pexels',run:async({m})=>{if(!m.isCmd||!["pexels","pexelsdl"].includes(m.command))return;m.reply("❌ Fitur download PEXELS memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

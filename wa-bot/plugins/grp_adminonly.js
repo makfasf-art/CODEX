@@ -1,0 +1,1 @@
+module.exports={name:'grp_adminonly',run:async({m})=>{if(!m.isCmd||!["adminonly"].includes(m.command))return;m.reply("⚙️ Fitur adminonly di grup.\nFitur lanjutan butuh API tambahan.");}};

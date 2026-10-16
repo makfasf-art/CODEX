@@ -1,0 +1,1 @@
+const a=["📜 Piramida Giza 2560 SM.","⚔️ PD II berakhir 1945.","🏛️ Borobudur abad 8."];module.exports={name:'r_sejarah',run:async({m})=>{if(!m.isCmd||!["sejarah"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

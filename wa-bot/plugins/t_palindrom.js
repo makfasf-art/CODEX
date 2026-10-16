@@ -1,0 +1,1 @@
+module.exports={name:'t_palindrom',run:async({m})=>{if(!m.isCmd||m.command!=='palindrom')return;if(!m.text)return m.reply('❌ .palindrom <text>');m.reply((t=>{const s=t.toLowerCase().replace(/\s/g,"");return s===s.split("").reverse().join("")?"✅ Palindrom":"❌ Bukan palindrom"})(m.text));}};

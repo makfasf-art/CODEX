@@ -1,0 +1,1 @@
+const a=["☠️ Toxic: 71%"];module.exports={name:'fun_toxic',run:async({m})=>{if(!m.isCmd||!["toxic"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

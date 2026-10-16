@@ -1,0 +1,1 @@
+module.exports={name:'t_hati',run:async({m})=>{if(!m.isCmd||m.command!=='hati')return;if(!m.text)return m.reply('❌ .hati <text>');m.reply((t=>t.split(" ").join(" ❤️ "))(m.text));}};

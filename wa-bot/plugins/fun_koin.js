@@ -1,0 +1,1 @@
+const a=["🪙 Koin: 5164"];module.exports={name:'fun_koin',run:async({m})=>{if(!m.isCmd||!["koin"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

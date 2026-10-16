@@ -1,0 +1,1 @@
+module.exports={name:'own_bc',run:async({m})=>{if(!m.isCmd||!["bc"].includes(m.command))return;m.reply("👑 Command bc khusus owner.");}};

@@ -1,0 +1,1 @@
+const a=["🍀 Hoki: 84%"];module.exports={name:'fun_hoki',run:async({m})=>{if(!m.isCmd||!["hoki"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

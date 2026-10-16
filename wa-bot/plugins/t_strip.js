@@ -1,0 +1,1 @@
+module.exports={name:'t_strip',run:async({m})=>{if(!m.isCmd||m.command!=='strip')return;if(!m.text)return m.reply('❌ .strip <text>');m.reply((t=>t.replace(/\s+/g,""))(m.text));}};

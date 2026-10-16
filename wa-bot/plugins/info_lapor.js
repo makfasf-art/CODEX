@@ -1,0 +1,1 @@
+module.exports={name:'info_lapor',run:async({m})=>{if(!m.isCmd||!["lapor"].includes(m.command))return;m.reply("📢 Lapor bug ke owner");}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_camel',run:async({m})=>{if(!m.isCmd||m.command!=='camel')return;if(!m.text)return m.reply('❌ .camel <text>');m.reply((t=>t.split(" ").map((w,i)=>i?w[0]?.toUpperCase()+w.slice(1):w.toLowerCase()).join(""))(m.text));}};

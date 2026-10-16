@@ -1,0 +1,1 @@
+module.exports={name:'own_listblock',run:async({m})=>{if(!m.isCmd||!["listblock"].includes(m.command))return;m.reply("👑 Command listblock khusus owner.");}};

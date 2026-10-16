@@ -1,0 +1,1 @@
+const a=["🎫 Token: tu7xywkhtaq"];module.exports={name:'u_token',run:async({m})=>{if(!m.isCmd||m.command!=='token')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

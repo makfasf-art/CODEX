@@ -1,0 +1,1 @@
+module.exports={name:'info_uptime',run:async({m})=>{if(!m.isCmd||!["uptime"].includes(m.command))return;m.reply("⏱️ Uptime aktif");}};

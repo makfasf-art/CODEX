@@ -1,0 +1,1 @@
+module.exports={name:'t_bubble',run:async({m})=>{if(!m.isCmd||m.command!=='bubble')return;if(!m.text)return m.reply('❌ .bubble <text>');m.reply((t=>[...t].map(c=>String.fromCharCode(0x24B6+(c.toUpperCase().charCodeAt(0)-65))).join(""))(m.text));}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_formal',run:async({m})=>{if(!m.isCmd||m.command!=='formal')return;if(!m.text)return m.reply('❌ .formal <text>');m.reply((t=>"Dengan hormat, "+t+". Terima kasih.")(m.text));}};

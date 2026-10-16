@@ -1,0 +1,1 @@
+module.exports={name:'info_bahasa',run:async({m})=>{if(!m.isCmd||!["bahasa"].includes(m.command))return;m.reply("🌐 Bahasa: Indonesia");}};

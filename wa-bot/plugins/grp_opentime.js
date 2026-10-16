@@ -1,0 +1,1 @@
+module.exports={name:'grp_opentime',run:async({m})=>{if(!m.isCmd||!["opentime"].includes(m.command))return;m.reply("⚙️ Fitur opentime di grup.\nFitur lanjutan butuh API tambahan.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'ai_youchat',run:async({m})=>{if(!m.isCmd||!["youchat"].includes(m.command))return;m.reply("🤖 Fitur AI youchat memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

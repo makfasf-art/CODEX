@@ -1,0 +1,1 @@
+const a=["📿 Allahumma sholli ala Sayyidina Muhammad","📿 Sholawat Nabi: Semoga Allah melimpahkan rahmat."];module.exports={name:'i_sholawat',run:async({m})=>{if(!m.isCmd||!["sholawat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

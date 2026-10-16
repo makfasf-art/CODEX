@@ -1,0 +1,1 @@
+module.exports={name:'own_restart',run:async({m})=>{if(!m.isCmd||!["restart"].includes(m.command))return;m.reply("👑 Command restart khusus owner.");}};

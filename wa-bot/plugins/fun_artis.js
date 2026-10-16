@@ -1,0 +1,1 @@
+const a=["⭐ Artis fav: Rich Brian"];module.exports={name:'fun_artis',run:async({m})=>{if(!m.isCmd||!["artis"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

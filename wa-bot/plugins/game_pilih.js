@@ -1,0 +1,1 @@
+const a=["✅ Pilihan: A","✅ Pilihan: B","✅ Pilihan: C"];module.exports={name:'game_pilih',run:async({m})=>{if(!m.isCmd||!["pilih"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

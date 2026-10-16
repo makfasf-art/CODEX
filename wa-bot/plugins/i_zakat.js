@@ -1,0 +1,1 @@
+const a=["💰 Zakat fitrah 2.5kg atau 3.5 liter beras"];module.exports={name:'i_zakat',run:async({m})=>{if(!m.isCmd||!["zakat"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_douyin',run:async({m})=>{if(!m.isCmd||!["douyin","douyindl"].includes(m.command))return;m.reply("❌ Fitur download DOUYIN memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

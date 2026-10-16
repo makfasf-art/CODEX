@@ -1,0 +1,1 @@
+module.exports={name:'grp_kick',run:async({m})=>{if(!m.isCmd||!["kick"].includes(m.command))return;m.reply("⚙️ Fitur kick di grup.\nFitur lanjutan butuh API tambahan.");}};

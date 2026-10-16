@@ -1,0 +1,1 @@
+module.exports={name:'grp_setdesc',run:async({m})=>{if(!m.isCmd||!["setdesc"].includes(m.command))return;m.reply("⚙️ Fitur setdesc di grup.\nFitur lanjutan butuh API tambahan.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_urlenc',run:async({m})=>{if(!m.isCmd||m.command!=='urlenc')return;if(!m.text)return m.reply('❌ .urlenc <text>');m.reply((t=>encodeURIComponent(t))(m.text));}};

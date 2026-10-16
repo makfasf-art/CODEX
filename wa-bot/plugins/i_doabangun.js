@@ -1,0 +1,1 @@
+const a=["🌞 Alhamdulillahilladzi ahyana ba'da ma amatana wa ilaihin nusyur"];module.exports={name:'i_doabangun',run:async({m})=>{if(!m.isCmd||!["doabangun"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+const a=["⭐ Rating: 3/5"];module.exports={name:'fun_rate',run:async({m})=>{if(!m.isCmd||!["rate"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

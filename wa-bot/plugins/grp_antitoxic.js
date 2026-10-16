@@ -1,0 +1,1 @@
+module.exports={name:'grp_antitoxic',run:async({m})=>{if(!m.isCmd||!["antitoxic"].includes(m.command))return;m.reply("⚙️ Fitur antitoxic di grup.\nFitur lanjutan butuh API tambahan.");}};

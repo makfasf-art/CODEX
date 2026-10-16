@@ -1,0 +1,1 @@
+module.exports={name:'grp_revoke',run:async({m})=>{if(!m.isCmd||!["revoke"].includes(m.command))return;m.reply("⚙️ Fitur revoke di grup.\nFitur lanjutan butuh API tambahan.");}};

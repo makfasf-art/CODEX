@@ -1,0 +1,1 @@
+module.exports={name:'info_memory',run:async({m})=>{if(!m.isCmd||!["memory"].includes(m.command))return;m.reply("💾 RAM: 4 MB");}};

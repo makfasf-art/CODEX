@@ -1,0 +1,1 @@
+const a=["🕋 Haji wajib bagi yang mampu"];module.exports={name:'i_haji',run:async({m})=>{if(!m.isCmd||!["haji"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

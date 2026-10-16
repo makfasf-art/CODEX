@@ -1,0 +1,1 @@
+const a=["💧 Rukun Wudhu: niat, basuh tangan, kumur, istinsyaq, basuh muka, tangan, kepala, telinga, kaki, tertib"];module.exports={name:'i_wudhu',run:async({m})=>{if(!m.isCmd||!["wudhu"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

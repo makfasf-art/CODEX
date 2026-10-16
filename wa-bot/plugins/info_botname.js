@@ -1,0 +1,1 @@
+module.exports={name:'info_botname',run:async({m})=>{if(!m.isCmd||!["botname"].includes(m.command))return;m.reply("🤖 NEXUS-BOT");}};

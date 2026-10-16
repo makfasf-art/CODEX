@@ -1,0 +1,1 @@
+const a=["💕 Setia: 19%"];module.exports={name:'fun_setia',run:async({m})=>{if(!m.isCmd||!["setia"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

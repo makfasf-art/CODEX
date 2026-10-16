@@ -1,0 +1,1 @@
+module.exports={name:'t_uppercase',run:async({m})=>{if(!m.isCmd||m.command!=='uppercase')return;if(!m.text)return m.reply('❌ .uppercase <text>');m.reply((t=>t.toUpperCase())(m.text));}};

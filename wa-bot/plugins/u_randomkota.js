@@ -1,0 +1,1 @@
+const a=["🏙️ Surabaya"];module.exports={name:'u_randomkota',run:async({m})=>{if(!m.isCmd||m.command!=='randomkota')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_alien',run:async({m})=>{if(!m.isCmd||m.command!=='alien')return;if(!m.text)return m.reply('❌ .alien <text>');m.reply((t=>"👽 "+t+" 👽")(m.text));}};

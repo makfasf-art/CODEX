@@ -1,0 +1,1 @@
+module.exports={name:'t_spasi',run:async({m})=>{if(!m.isCmd||m.command!=='spasi')return;if(!m.text)return m.reply('❌ .spasi <text>');m.reply((t=>t.split("").join(" "))(m.text));}};

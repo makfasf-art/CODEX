@@ -1,0 +1,1 @@
+module.exports={name:'dl_vimeo',run:async({m})=>{if(!m.isCmd||!["vimeo","vimeodl"].includes(m.command))return;m.reply("❌ Fitur download VIMEO memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

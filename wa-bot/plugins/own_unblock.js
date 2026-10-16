@@ -1,0 +1,1 @@
+module.exports={name:'own_unblock',run:async({m})=>{if(!m.isCmd||!["unblock"].includes(m.command))return;m.reply("👑 Command unblock khusus owner.");}};

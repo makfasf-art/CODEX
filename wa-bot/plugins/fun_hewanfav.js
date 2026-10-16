@@ -1,0 +1,1 @@
+const a=["🐾 Hewan fav: Anjing"];module.exports={name:'fun_hewanfav',run:async({m})=>{if(!m.isCmd||!["hewanfav"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

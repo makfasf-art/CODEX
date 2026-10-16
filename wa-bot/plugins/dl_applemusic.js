@@ -1,0 +1,1 @@
+module.exports={name:'dl_applemusic',run:async({m})=>{if(!m.isCmd||!["applemusic","applemusicdl"].includes(m.command))return;m.reply("❌ Fitur download APPLEMUSIC memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

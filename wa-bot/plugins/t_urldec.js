@@ -1,0 +1,1 @@
+module.exports={name:'t_urldec',run:async({m})=>{if(!m.isCmd||m.command!=='urldec')return;if(!m.text)return m.reply('❌ .urldec <text>');m.reply((t=>decodeURIComponent(t))(m.text));}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_kakaotalk',run:async({m})=>{if(!m.isCmd||!["kakaotalk","kakaotalkdl"].includes(m.command))return;m.reply("❌ Fitur download KAKAOTALK memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

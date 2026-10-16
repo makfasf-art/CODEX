@@ -1,0 +1,1 @@
+const a=["🤝 Friend meter: 27%"];module.exports={name:'fun_friend',run:async({m})=>{if(!m.isCmd||!["friend"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

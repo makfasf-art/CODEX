@@ -1,0 +1,1 @@
+module.exports={name:'t_snake',run:async({m})=>{if(!m.isCmd||m.command!=='snake')return;if(!m.text)return m.reply('❌ .snake <text>');m.reply((t=>t.toLowerCase().replace(/\s+/g,"_"))(m.text));}};

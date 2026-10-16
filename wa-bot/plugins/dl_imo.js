@@ -1,0 +1,1 @@
+module.exports={name:'dl_imo',run:async({m})=>{if(!m.isCmd||!["imo","imodl"].includes(m.command))return;m.reply("❌ Fitur download IMO memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

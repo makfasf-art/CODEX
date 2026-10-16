@@ -1,0 +1,1 @@
+module.exports={name:'t_smallcaps',run:async({m})=>{if(!m.isCmd||m.command!=='smallcaps')return;if(!m.text)return m.reply('❌ .smallcaps <text>');m.reply((t=>t.toLowerCase().replace(/a/g,"ᴀ").replace(/b/g,"ʙ").replace(/c/g,"ᴄ").replace(/d/g,"ᴅ").replace(/e/g,"ᴇ"))(m.text));}};

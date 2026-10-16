@@ -1,0 +1,1 @@
+module.exports={name:'t_tempel',run:async({m})=>{if(!m.isCmd||m.command!=='tempel')return;if(!m.text)return m.reply('❌ .tempel <text>');m.reply((t=>t+"™")(m.text));}};

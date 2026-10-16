@@ -1,0 +1,1 @@
+const a=["❤️ HP: 91"];module.exports={name:'fun_hp',run:async({m})=>{if(!m.isCmd||!["hp"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

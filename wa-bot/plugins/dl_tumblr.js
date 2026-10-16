@@ -1,0 +1,1 @@
+module.exports={name:'dl_tumblr',run:async({m})=>{if(!m.isCmd||!["tumblr","tumblrdl"].includes(m.command))return;m.reply("❌ Fitur download TUMBLR memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

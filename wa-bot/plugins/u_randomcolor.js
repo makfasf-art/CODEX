@@ -1,0 +1,1 @@
+const a=["🎨 #9b3b0"];module.exports={name:'u_randomcolor',run:async({m})=>{if(!m.isCmd||m.command!=='randomcolor')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

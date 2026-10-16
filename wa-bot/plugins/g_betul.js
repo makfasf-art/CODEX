@@ -1,0 +1,1 @@
+const a=["✅ Betul!"];module.exports={name:'g_betul',run:async({m})=>{if(!m.isCmd||!["betul"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

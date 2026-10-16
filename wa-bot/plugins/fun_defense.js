@@ -1,0 +1,1 @@
+const a=["🛡️ DEF: 21"];module.exports={name:'fun_defense',run:async({m})=>{if(!m.isCmd||!["defense"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'grp_mute',run:async({m})=>{if(!m.isCmd||!["mute"].includes(m.command))return;m.reply("⚙️ Fitur mute di grup.\nFitur lanjutan butuh API tambahan.");}};

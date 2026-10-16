@@ -1,0 +1,1 @@
+module.exports={name:'dl_telegram',run:async({m})=>{if(!m.isCmd||!["telegram","telegramdl"].includes(m.command))return;m.reply("❌ Fitur download TELEGRAM memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_hashtag',run:async({m})=>{if(!m.isCmd||m.command!=='hashtag')return;if(!m.text)return m.reply('❌ .hashtag <text>');m.reply((t=>"#"+t.split(" ").join(" #"))(m.text));}};

@@ -1,0 +1,1 @@
+module.exports={name:'own_shutdown',run:async({m})=>{if(!m.isCmd||!["shutdown"].includes(m.command))return;m.reply("👑 Command shutdown khusus owner.");}};

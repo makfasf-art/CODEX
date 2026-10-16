@@ -1,0 +1,1 @@
+module.exports={name:'ai_gpt',run:async({m})=>{if(!m.isCmd||!["gpt"].includes(m.command))return;m.reply("🤖 Fitur AI gpt memerlukan API key.\nContoh: daftar di openai.com lalu isi di config.");}};

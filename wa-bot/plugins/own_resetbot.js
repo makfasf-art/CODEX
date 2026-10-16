@@ -1,0 +1,1 @@
+module.exports={name:'own_resetbot',run:async({m})=>{if(!m.isCmd||!["resetbot"].includes(m.command))return;m.reply("👑 Command resetbot khusus owner.");}};

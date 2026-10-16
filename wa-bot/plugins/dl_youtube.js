@@ -1,0 +1,1 @@
+module.exports={name:'dl_youtube',run:async({m})=>{if(!m.isCmd||!["youtube","youtubedl"].includes(m.command))return;m.reply("❌ Fitur download YOUTUBE memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

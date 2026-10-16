@@ -1,0 +1,1 @@
+const a=["🌙 Good night!"];module.exports={name:'g_goodnight',run:async({m})=>{if(!m.isCmd||!["goodnight"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

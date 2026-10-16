@@ -1,0 +1,1 @@
+const a=["📖 4 Kitab: Taurat, Zabur, Injil, Al-Quran"];module.exports={name:'i_kitab',run:async({m})=>{if(!m.isCmd||!["kitab"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

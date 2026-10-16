@@ -1,0 +1,1 @@
+module.exports={name:'dl_freepik',run:async({m})=>{if(!m.isCmd||!["freepik","freepikdl"].includes(m.command))return;m.reply("❌ Fitur download FREEPIK memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

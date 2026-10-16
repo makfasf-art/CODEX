@@ -1,0 +1,1 @@
+const a="🥰";module.exports={name:'u_randomemoji',run:async({m})=>{if(!m.isCmd||m.command!=='randomemoji')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

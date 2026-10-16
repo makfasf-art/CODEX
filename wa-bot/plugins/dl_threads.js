@@ -1,0 +1,1 @@
+module.exports={name:'dl_threads',run:async({m})=>{if(!m.isCmd||!["threads","threadsdl"].includes(m.command))return;m.reply("❌ Fitur download THREADS memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'info_jam',run:async({m})=>{if(!m.isCmd||!["jam"].includes(m.command))return;m.reply("🕐 20.28.00");}};

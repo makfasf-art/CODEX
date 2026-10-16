@@ -1,0 +1,1 @@
+const a=["1. Ar-Rahman","2. Ar-Rahim","3. Al-Malik","4. Al-Quddus","5. As-Salam","6. Al-Mu'min","7. Al-Muhaimin","8. Al-'Aziz","9. Al-Jabbar","10. Al-Mutakabbir"];module.exports={name:'i_asmaulhusnafull',run:async({m})=>{if(!m.isCmd||!["asmaulhusnafull"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

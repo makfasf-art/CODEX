@@ -1,0 +1,1 @@
+module.exports={name:'dl_alamy',run:async({m})=>{if(!m.isCmd||!["alamy","alamydl"].includes(m.command))return;m.reply("❌ Fitur download ALAMY memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

@@ -1,0 +1,1 @@
+module.exports={name:'info_caraikutgrup',run:async({m})=>{if(!m.isCmd||!["caraikutgrup"].includes(m.command))return;m.reply("1. Sopan\n2. Aktif\n3. Share ilmu\n4. Bantu sesama");}};

@@ -1,0 +1,1 @@
+module.exports={name:'t_api',run:async({m})=>{if(!m.isCmd||m.command!=='api')return;if(!m.text)return m.reply('❌ .api <text>');m.reply((t=>t.split(" ").join(" 🔥 "))(m.text));}};

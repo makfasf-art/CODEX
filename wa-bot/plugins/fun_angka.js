@@ -1,0 +1,1 @@
+const a=["🔢 Angka fav: 27"];module.exports={name:'fun_angka',run:async({m})=>{if(!m.isCmd||!["angka"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

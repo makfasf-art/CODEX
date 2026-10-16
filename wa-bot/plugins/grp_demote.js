@@ -1,0 +1,1 @@
+module.exports={name:'grp_demote',run:async({m})=>{if(!m.isCmd||!["demote"].includes(m.command))return;m.reply("⚙️ Fitur demote di grup.\nFitur lanjutan butuh API tambahan.");}};

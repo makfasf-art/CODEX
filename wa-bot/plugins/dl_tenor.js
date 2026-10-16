@@ -1,0 +1,1 @@
+module.exports={name:'dl_tenor',run:async({m})=>{if(!m.isCmd||!["tenor","tenordl"].includes(m.command))return;m.reply("❌ Fitur download TENOR memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

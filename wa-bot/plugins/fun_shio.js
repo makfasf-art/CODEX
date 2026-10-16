@@ -1,0 +1,1 @@
+const a=["🐉 Shio: Babi"];module.exports={name:'fun_shio',run:async({m})=>{if(!m.isCmd||!["shio"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

@@ -1,0 +1,1 @@
+module.exports={name:'dl_flickr',run:async({m})=>{if(!m.isCmd||!["flickr","flickrdl"].includes(m.command))return;m.reply("❌ Fitur download FLICKR memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

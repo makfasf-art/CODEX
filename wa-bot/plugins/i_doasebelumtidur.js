@@ -1,0 +1,1 @@
+const a=["🌙 Bismika Allahumma ahya wa amut"];module.exports={name:'i_doasebelumtidur',run:async({m})=>{if(!m.isCmd||!["doasebelumtidur"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

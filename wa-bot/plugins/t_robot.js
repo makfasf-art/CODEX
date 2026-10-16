@@ -1,0 +1,1 @@
+module.exports={name:'t_robot',run:async({m})=>{if(!m.isCmd||m.command!=='robot')return;if(!m.text)return m.reply('❌ .robot <text>');m.reply((t=>"🤖 "+t+" 🤖")(m.text));}};

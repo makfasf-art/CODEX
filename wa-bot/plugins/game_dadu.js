@@ -1,0 +1,1 @@
+const a=["🎲 Dadu: 5"];module.exports={name:'game_dadu',run:async({m})=>{if(!m.isCmd||!["dadu"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

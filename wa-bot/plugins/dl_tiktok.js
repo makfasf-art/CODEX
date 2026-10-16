@@ -1,0 +1,1 @@
+module.exports={name:'dl_tiktok',run:async({m})=>{if(!m.isCmd||!["tiktok","tiktokdl"].includes(m.command))return;m.reply("❌ Fitur download TIKTOK memerlukan API key.\nHubungi owner untuk mengaktifkan.");}};

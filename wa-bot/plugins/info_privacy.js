@@ -1,0 +1,1 @@
+module.exports={name:'info_privacy',run:async({m})=>{if(!m.isCmd||!["privacy"].includes(m.command))return;m.reply("🔒 Bot tidak menyimpan data pribadi user");}};

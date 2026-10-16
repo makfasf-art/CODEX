@@ -1,0 +1,1 @@
+module.exports={name:'own_setbotpic',run:async({m})=>{if(!m.isCmd||!["setbotpic"].includes(m.command))return;m.reply("👑 Command setbotpic khusus owner.");}};

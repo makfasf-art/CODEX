@@ -1,0 +1,1 @@
+module.exports={name:'info_syarat',run:async({m})=>{if(!m.isCmd||!["syarat"].includes(m.command))return;m.reply("📋 Gunakan bot dengan bijak dan sopan");}};

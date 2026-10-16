@@ -1,0 +1,1 @@
+module.exports={name:'own_exec',run:async({m})=>{if(!m.isCmd||!["exec"].includes(m.command))return;m.reply("👑 Command exec khusus owner.");}};

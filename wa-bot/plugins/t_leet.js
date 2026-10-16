@@ -1,0 +1,1 @@
+module.exports={name:'t_leet',run:async({m})=>{if(!m.isCmd||m.command!=='leet')return;if(!m.text)return m.reply('❌ .leet <text>');m.reply((t=>t.replace(/a/g,"4").replace(/e/g,"3").replace(/i/g,"1").replace(/o/g,"0"))(m.text));}};

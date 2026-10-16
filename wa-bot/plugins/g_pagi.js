@@ -1,0 +1,1 @@
+const a=["🌅 Selamat pagi!","☀️ Pagi! Semangat!"];module.exports={name:'g_pagi',run:async({m})=>{if(!m.isCmd||!["pagi"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

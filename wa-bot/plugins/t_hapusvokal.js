@@ -1,0 +1,1 @@
+module.exports={name:'t_hapusvokal',run:async({m})=>{if(!m.isCmd||m.command!=='hapusvokal')return;if(!m.text)return m.reply('❌ .hapusvokal <text>');m.reply((t=>t.replace(/[aiueo]/gi,""))(m.text));}};

@@ -1,0 +1,30 @@
+{
+  "project": "V9 ULTRA",
+  "target_features": 350,
+  "implemented": [
+    "pairing code",
+    "menu",
+    "ping",
+    "owner info",
+    "random dice",
+    "coin flip",
+    "basic calculator",
+    "tic-tac-toe chat",
+    "tic-tac-toe WebSocket multiplayer",
+    "web status endpoint"
+  ],
+  "planned": [
+    "UNO",
+    "chess",
+    "puzzle",
+    "sticker",
+    "video sticker",
+    "Brat sticker",
+    "Brat video",
+    "TTS",
+    "AI replies",
+    "group moderation",
+    "media downloader"
+  ],
+  "note": "Daftar rencana bukan fitur aktif. Integrasikan dan uji setiap fitur sebelum mengklaim selesai."
+}

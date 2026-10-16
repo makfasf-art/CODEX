@@ -1,0 +1,1 @@
+const a=["🌸 Dalam sunyimu aku temukan arti.","🌙 Bulan purnama mengenang dirimu."];module.exports={name:'r_puisi',run:async({m})=>{if(!m.isCmd||!["puisi"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

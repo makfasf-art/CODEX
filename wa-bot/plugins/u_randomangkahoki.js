@@ -1,0 +1,1 @@
+const a=["🍀 91"];module.exports={name:'u_randomangkahoki',run:async({m})=>{if(!m.isCmd||m.command!=='randomangkahoki')return;m.reply(a[Math.floor(Math.random()*a.length)]);}};

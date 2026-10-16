@@ -1,0 +1,1 @@
+module.exports={name:'grp_add',run:async({m})=>{if(!m.isCmd||!["add"].includes(m.command))return;m.reply("⚙️ Fitur add di grup.\nFitur lanjutan butuh API tambahan.");}};

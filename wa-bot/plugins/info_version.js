@@ -1,0 +1,1 @@
+module.exports={name:'info_version',run:async({m})=>{if(!m.isCmd||!["version"].includes(m.command))return;m.reply("📌 v1.0.0");}};

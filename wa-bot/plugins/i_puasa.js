@@ -1,0 +1,1 @@
+const a=["🌙 Puasa wajib di bulan Ramadhan"];module.exports={name:'i_puasa',run:async({m})=>{if(!m.isCmd||!["puasa"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

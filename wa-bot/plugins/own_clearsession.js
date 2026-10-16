@@ -1,0 +1,1 @@
+module.exports={name:'own_clearsession',run:async({m})=>{if(!m.isCmd||!["clearsession"].includes(m.command))return;m.reply("👑 Command clearsession khusus owner.");}};

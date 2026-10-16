@@ -1,0 +1,1 @@
+module.exports={name:'own_reload',run:async({m})=>{if(!m.isCmd||!["reload"].includes(m.command))return;m.reply("👑 Command reload khusus owner.");}};

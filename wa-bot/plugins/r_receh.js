@@ -1,0 +1,1 @@
+const a=["😂 Receh? Yang penting senyum.","🤣 Humor receh terapi jiwa."];module.exports={name:'r_receh',run:async({m})=>{if(!m.isCmd||!["receh"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};

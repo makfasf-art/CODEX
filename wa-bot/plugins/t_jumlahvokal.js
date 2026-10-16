@@ -1,0 +1,1 @@
+module.exports={name:'t_jumlahvokal',run:async({m})=>{if(!m.isCmd||m.command!=='jumlahvokal')return;if(!m.text)return m.reply('❌ .jumlahvokal <text>');m.reply((t=>(t.match(/[aiueo]/gi)||[]).length+" vokal")(m.text));}};

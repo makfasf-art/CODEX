@@ -1,0 +1,1 @@
+const a=["Kamu tahu bedanya kamu sama kopi? Kopi pahit, kamu manis 🥰","Kalau kamu jadi pelangi, aku rela kehujanan 🌈","Kamu seperti wifi, sinyalmu connect terus 📶","Cinta itu pelajaran, kamu nilai 100-ku 💯"];module.exports={name:'r_gombal',run:async({m})=>{if(!m.isCmd||!["gombal"].includes(m.command))return;m.reply(""+a[Math.floor(Math.random()*a.length)]);}};
